@@ -1,0 +1,139 @@
+---
+title: Components
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+DreamTime by itself is just a user interface that makes the whole nudification process more accessible, but for everything to work it is necessary to install external components:
+
+- **DreamPower:** Command line application with the nudification algorithms.
+- **Checkpoints:** DeepNude pre-trained models required by DreamPower.
+- **Waifu2X:** Optional command line application with the image upscaling and denoise algorithm.
+
+On this page we offer download links and manual installation instructions.
+
+---
+
+## DreamPower
+
+<Tabs
+  defaultValue="windows"
+  values={[
+    { label: 'Windows', value: 'windows', },
+    { label: 'Linux', value: 'linux', },
+    { label: 'Mac', value: 'macos', },
+  ]
+}>
+<TabItem value="windows">
+
+[![](https://img.shields.io/badge/v1.2.11-GPU%20and%20CPU-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreampower/v1.2.11/windows/any)
+
+[![](https://img.shields.io/badge/v1.2.11-CPU%20Only-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreampower/v1.2.11/windows/cpuonly)
+
+</TabItem>
+
+<TabItem value="linux">
+
+[![](https://img.shields.io/badge/v1.2.11-GPU%20and%20CPU-E95420?logo=linux&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreampower/v1.2.11/linux/any)
+
+[![](https://img.shields.io/badge/v1.2.11-CPU%20Only-E95420?logo=linux&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreampower/v1.2.11/linux/cpuonly)
+
+</TabItem>
+
+<TabItem value="macos">
+
+
+[![](https://img.shields.io/badge/v1.2.11-CPU%20Only-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreampower/v1.2.11/macos/cpuonly)
+
+:::info
+To add NVIDIA GPU support to DreamPower you will need to install PyTorch from source and recompile [DreamPower](https://github.com/dreamnettech/dreampower).
+:::
+
+</TabItem>
+
+</Tabs>
+
+### Installation
+
+- Inside DreamTime click on the button `DreamTime Folder` to open the `AppData` folder of DreamTime.
+- Create a folder called `dreampower`, if it exists delete it and create it again.
+- Extract the contents of the 7z file (you can use [7-Zip](https://www.7-zip.org/)) into the `dreampower` folder you just created.
+- Restart DreamTime! 🥳
+
+---
+
+## Checkpoints
+
+<Tabs
+  defaultValue="http"
+  values={[
+    { label: 'HTTP', value: 'http', },
+    { label: 'Torrent', value: 'torrent', },
+  ]
+}>
+
+<TabItem value="http">
+
+[![](https://img.shields.io/badge/v0.0.1-http-E95420?style=for-the-badge)](https://downloads.dreamnet.tech/checkpoints/v0.0.1)
+
+</TabItem>
+
+<TabItem value="torrent">
+
+[![](https://img.shields.io/badge/v0.0.1-torrent-E95420?style=for-the-badge)](https://link.dreamnet.tech/ipfs/QmWgk943L8XqL86pT17WENaAuwtrSKqZQ23MhZSFAquyyi?filename=v0.0.1.torrent)
+
+</TabItem>
+
+</Tabs>
+
+### Installation
+
+- Inside DreamTime click on the button `DreamPower Folder` to open the folder where DreamPower is installed.
+- Extract the contents of the zip file into the folder.
+- Make sure you have the `checkpoints` folder with 3 files inside.
+- Restart DreamTime! 🥳
+
+---
+
+## Waifu2X
+
+<Tabs
+  defaultValue="windows"
+  values={[
+    { label: 'Windows', value: 'windows', },
+    { label: 'Linux', value: 'linux', },
+    { label: 'Mac', value: 'macos', },
+  ]
+}>
+<TabItem value="windows">
+
+[![](https://img.shields.io/badge/v0.1.0-GPU%20and%20CPU-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/waifu/v0.1.0/windows/any)
+
+[![](https://img.shields.io/badge/v0.1.0-CPU%20Only-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/waifu/v0.1.0/windows/cpuonly)
+
+</TabItem>
+
+<TabItem value="linux">
+
+[![](https://img.shields.io/badge/v0.1.0-GPU%20and%20CPU-E95420?logo=linux&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/waifu/v0.1.0/linux/any)
+
+[![](https://img.shields.io/badge/v0.1.0-CPU%20Only-E95420?logo=linux&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/waifu/v0.1.0/linux/cpuonly)
+
+</TabItem>
+
+<TabItem value="macos">
+
+
+[![](https://img.shields.io/badge/v0.1.0-CPU%20Only-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/waifu/v0.1.0/macos/cpuonly)
+
+</TabItem>
+
+</Tabs>
+
+### Installation
+
+- Inside DreamTime click on the button `DreamTime Folder` to open the `AppData` folder of DreamTime.
+- Create a folder called `waifu2x`, if it exists, delete it and create it again.
+- Extract the contents of the 7z file (you can use [7-Zip](https://www.7-zip.org/)) into the `waifu2x` folder you just created.
+- Restart DreamTime! 🥳

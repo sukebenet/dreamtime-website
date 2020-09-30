@@ -1,0 +1,84 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #D67411;
+  --ifm-color-primary-dark: #C1680F;
+  --ifm-color-primary-darker: #80460A;
+  --ifm-color-primary-darkest: #603408;
+  --ifm-color-primary-light: #E29E58;
+  --ifm-color-primary-lighter: #EFC7A0;
+  --ifm-color-primary-lightest: #F5DCC4;
+  --ifm-code-font-size: 95%;
+  --ifm-font-size-base: 16px;
+  --ifm-hero-background-color: var(--ifm-footer-background-color);
+  --ifm-font-family-base: Inter, -apple-system, BlinkMacSystemFont, system-ui, Arial, sans-serif;
+}
+
+html {
+
+}
+
+html[data-theme='dark'] {
+  --ifm-navbar-background-color: #161a1f;
+  --ifm-footer-background-color: #161a1f;
+  --ifm-hero-background-color: #000;
+  --ifm-background-color: #14171C;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.hero__title {
+  color: var(--ifm-heading-color);
+}
+
+.tab-item {
+  outline: none;
+}
+
+.contact_form {
+  width: 100%;
+  min-height: 700px;
+  margin: 3em 0;
+}
+
+table {
+  display: table;
+  width: auto;
+}
+
+.sidebar_src-theme-DocSidebar-,
+.sidebar_25T_ {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  flex: 1;
+}
+
+.menu__ads {
+  overflow: hidden;
+}
+
+.menu__ads ins {
+  width: 300px;
+  min-height: 250px;
+}
+
+ins {
+  display: block;
+}
+
+video {
+  width: 100%;
+}

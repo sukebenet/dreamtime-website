@@ -1,0 +1,46 @@
+{
+  "name": "www-dreamtime-docusaurus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "shx rm -rf build/",
+    "start": "docusaurus start",
+    "build": "yarn run clean && docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "deploy build -p pinata -d cloudflare -n www-dreamtime -s ."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-alpha.50",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.50",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.50",
+    "@docusaurus/theme-classic": "^2.0.0-alpha.37",
+    "@dreamnet/docusaurus-plugin-dreamtime": "^0.1.0",
+    "classnames": "^2.2.6",
+    "color": "^3.1.2",
+    "ipfs-deploy": "^7.14.0",
+    "npm-to-yarn": "^1.0.0-2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@dreamnet/deploy": "^0.1.0",
+    "@mdx-js/react": "^1.6.16",
+    "clsx": "^1.1.1",
+    "shx": "^0.3.2"
+  },
+  "resolutions": {
+    "@dreamnet/docusaurus-plugin-dreamtime": "portal:./plugins/docusaurus-plugin-dreamtime"
+  }
+}

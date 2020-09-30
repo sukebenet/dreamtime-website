@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "isolatedModules": false,
+    "declaration": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "**/*.spec.ts"
+  ]
+ }
