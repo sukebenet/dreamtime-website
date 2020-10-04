@@ -12,7 +12,7 @@ This page offers a basic tutorial for using DreamPower in Google Colab.
 
 Below are different versions of DreamPower in Google Colab:
 
-[![](https://img.shields.io/badge/v1.2.8-by%20Ptibouc77-4285F4?logo=google&logoColor=white&style=for-the-badge)](https://colab.research.google.com/gist/Ptibouc77/cd7da30a967b301f2d7a042ad6f06886/dreampower-v1-2-8-updated-from-1-2-5-from-firstdee.ipynb)
+[![](https://img.shields.io/badge/v1.2.12-by%20Ptibouc77-4285F4?logo=google&logoColor=white&style=for-the-badge)](https://colab.research.google.com/gist/Ptibouc77/cd7da30a967b301f2d7a042ad6f06886/dreampower-v1-2-8-updated-from-1-2-5-from-firstdee.ipynb)
 
 [![](https://img.shields.io/badge/v1.2.5-by%20FirstDee-4285F4?logo=google&logoColor=white&style=for-the-badge)](https://colab.research.google.com/gist/FirstDee/c3a94ff37e0561e597b65160aabbbc07/dreamtime-v1.ipynb)
 
