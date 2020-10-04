@@ -5537,6 +5537,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cookie@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "cookie@npm:0.4.1"
+  checksum: b8e0928e3e7aba013087974b33a6eec730b0a68b7ec00fc3c089a56ba2883bcf671252fc2ed64775aa1ca64796b6e1f6fdddba25a66808aef77614d235fd3e06
+  languageName: node
+  linkType: hard
+
 "copy-concurrently@npm:^1.0.0":
   version: 1.0.5
   resolution: "copy-concurrently@npm:1.0.5"
@@ -12183,6 +12190,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"mustache@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "mustache@npm:4.0.1"
+  bin:
+    mustache: ./bin/mustache
+  checksum: c4f756e3945b78a669d2cafcb57e885f5d9e0831160dd785087171f6c4a73f9faff4ad71371e4be426b8b9911945e1fe10fc10dc2898af22823cb91db1cb5665
+  languageName: node
+  linkType: hard
+
 "mute-stream@npm:0.0.8":
   version: 0.0.8
   resolution: "mute-stream@npm:0.0.8"
@@ -16531,6 +16547,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"stack-trace@npm:0.0.10":
+  version: 0.0.10
+  resolution: "stack-trace@npm:0.0.10"
+  checksum: 8e567bd9dc88f739f562e91d127cfe11740c3639900c9ddadbb3d78399171fd7236d8a7622f5a00047c162ec64e1f1869cf45daac11e4482e54ac2d98f8c3391
+  languageName: node
+  linkType: hard
+
 "state-toggle@npm:^1.0.0":
   version: 1.0.3
   resolution: "state-toggle@npm:1.0.3"
@@ -18617,6 +18640,7 @@ fsevents@~2.1.2:
     react: ^16.8.4
     react-dom: ^16.8.4
     shx: ^0.3.2
+    youch: ^2.1.1
   languageName: unknown
   linkType: soft
 
@@ -18802,6 +18826,17 @@ fsevents@~2.1.2:
   dependencies:
     chalk: ^2.3.0
   checksum: e45504ba668e36be57bb018e9a0d18285880fb879b1782be78c3ef8a5f070c5a2689bd958f0308c769d06f6fc0733d917ec1bba817eedb9af18e79d11db6df26
+  languageName: node
+  linkType: hard
+
+"youch@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "youch@npm:2.1.1"
+  dependencies:
+    cookie: ^0.4.1
+    mustache: ^4.0.1
+    stack-trace: 0.0.10
+  checksum: 483eb2c96cbad47425897ba6d2f10c9692b383869951476524edd8f26131990aa204d2d470cea8cd4eb8411194c7aa50a68976464585fd16cea0fd7e02039319
   languageName: node
   linkType: hard
 
