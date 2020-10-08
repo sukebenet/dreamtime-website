@@ -2,19 +2,47 @@
 title: Updater
 ---
 
-![](https://link.dreamnet.tech/ipfs/QmbXLD9pmefjiL8MEdXvx6KLnn5vB8ishTSfxhNxaE8thH)
+![](/img/previews/Updater.png)
 
-The DreamTime Updater allows you to download, install and keep updated the [components](/docs/guide/components) of DreamTime.
+## About
+
+DreamTime by itself is only a user interface that allows you to use nudification technology easily, however the nudification process is carried out with external applications that we call components.
+
+The updater allows you to download, install and keep updated this [components](/docs/guide/components).
 
 ---
 
 ## Use
 
-To install or update the component press the `Update` button and the updater will start downloading the update file from an available server, you can see the progress of the download. Once the download has finished the updater will start to install the file automatically and if necessary, restart DreamTime.
+The process is very simple, you just need to press the `Update` button to start downloading the update file from an available server. Once the download has finished the updater will start to install the file automatically and if necessary, restart DreamTime.
 
 :::info
-Files downloaded by the updater will be saved in the `Downloads` folder of your operating system.
+Files downloaded by the updater will be saved in the `Downloads` folder of your operating system. If you have already downloaded the file, the updater will ask you if you want to use it or download it again.
 :::
+
+---
+
+## Protocols
+
+Some factors such as the stability and/or speed of your Internet connection, regional firewalls or VPNs can make it difficult to download these components, so some of these offer alternative download protocols so that you don't get stuck.
+
+- **HTTP:** Popular protocol that you use every day, for most users this is the fastest and safest option.
+  - ✔️ Fast download from secure servers.
+  - ⚠️ In case of a problem with your connection or the server you could download a corrupted file.
+  - ⚠️ If you cancel the download all progress will be lost.
+  - ⚠️ Some countries may have problems when downloading from the offered servers.
+- **IPFS:** Experimental protocol for downloading files from other computers.
+  - ⚠️ Download speed can be very slow.
+  - ✔️ The protocol makes sure that you always download a healthy file.
+  - ✔️ If you cancel the download, you can resume it later.
+  - ✔️ Because you download from nearby computers the country restriction may not affect.
+- **Torrent:** Popular protocol for downloading files from other computers.
+  - ⚠️ The download speed depends on the computers sharing the file.
+  - ✔️ The protocol makes sure that you always download a healthy file.
+  - ✔️ If you cancel the download, you can resume it later.
+  - ✔️ Because you download from nearby computers the country restriction may not affect.
+- **Any:** Use all the protocols if necessary. (HTTP -> IPFS -> Torrent)
+
 
 ---
 
@@ -28,10 +56,21 @@ Visit the [Components](/docs/guide/components) page for download links and manua
 
 ## Problems
 
-Many of the problems that originate in the updater are due to the Internet connection or problems writing the file to the disk, please make sure that:
+### The installation failed.
 
-- You have a stable internet connection.
-  - Check for any problems that your firewall may cause or if necessary we recommend using a VPN.
-- DreamTime has write permissions on the `Downloads` folder of your operating system.
-  - Check for any problems that your antivirus may cause.
-- There is enough space on the disk. (~3 GB)
+This problem means that the updater could not extract the content of the update file on your system:
+
+- **Corrupt file. (FILE_ENDED)**: Due to a problem with your connection or the server the updater ended up downloading a corrupt file. Please make sure you have a stable internet connection or change the download protocol to `IPFS or Torrent`.
+- **Permission problem:** Make sure that DreamTime has write permissions on the `Downloads` folder of your operating system and the folder of the component to install.
+- **Not enough space:** The components are large, please make sure you have enough disk space.
+
+
+### INTERNAL ERROR!
+
+This problem means that DreamTime has not been able to validate that the component is working correctly and it is very possible that you need help to diagnose and fix the error.
+
+Please visit [our chat](https://chat.dreamnet.tech) and post all the error message that appears in the black box.
+
+:::info
+**Windows:** Check if you have the file: `C:\Windows\System32\libiomp5md.dll` if so, delete or rename it and restart DreamTime.
+:::

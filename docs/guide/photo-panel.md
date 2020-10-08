@@ -62,7 +62,12 @@ Here are the options that generally should not be touched unless you want to exp
 
 - **Device:** It allows you to change the device to be used for nudification on that photo only. This option is here because it can be useful in case you want to experiment with the `Image size` option and your GPU does not have enough VRAM.
 - **Compression level:** A high level of compression sacrifices quality for less memory consumption. (Probably only a few bytes)
-- **Color transfer:** Use a experimental algorithm to recover the original colors of the photo.
+
+
+### Experimental
+
+- **Color transfer:** Uses an experimental algorithm that tries to transfer the colors of the original photo to the fake nude. (A good result is not always achieved)
+- **Visual Artifacts Inpaint:** Apply an experimental code on the fake nude that tries to remove the visual artifacts that occur in the vagina. Better results are achieved with a vagina size smaller than x1 and pubic hair size of x0.
 
 
 ### Image size

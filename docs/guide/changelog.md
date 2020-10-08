@@ -2,6 +2,33 @@
 title: Changelog
 ---
 
+## v1.5.8
+
+### 🔨 Fixes
+
+- Fix: Scale method warning notification was displayed incorrectly when selecting `Minimal` or `Simple` mode
+- Fix: Updating from the Snap Store left the installation with several permission problems.
+- Fix: Sometimes a tooltip stuck when pressing the `Nudify` button.
+- Fix: The fake nude preview was not shown in the Queue bar.
+- Fix: Using the env variable `POWER_PYTHON` didn't work.
+- Fix: The body part size slider disappeared when selecting `Runs Mode` in `Increase by Step`
+- Fix: The button to close the "new version available" notification open the updater instead of closing the notification.
+
+### ✨ Features
+
+- **DreamPower v1.2.12 compatibility:** New experimental option `Visual Artifacts Inpaint` that when enabled tries to remove the visual artifacts that appear in the vagina.
+
+### 💪 Improvements
+
+- Updaters now show the changelog for the new version.
+- Added the env variable `POWER_PATH` to force the location of DreamPower.
+- Vagina generation can be skipped. (Set to 0)
+- The body part size slider now changes its value every `0.02` instead of `0.5`
+- Projects in the "About" section now have the changelog.
+- Some improvements in design.
+
+---
+
 ## v1.5.7
 
 ### 🔨 Fixes
