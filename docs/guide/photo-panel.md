@@ -47,6 +47,18 @@ Examples of the automatic methods:
 
 ![](/img/examples/scales/stas-svechnikov-l-u--RUN1-1600005526873-dreamtime.png)
 
+### X-Rays Effect
+
+When activated, it allows to use a tool to create an X-Rays effect on the fake nude, this is achieved by placing the photo with clothes on top with a customizable transparency strength.
+
+This tool can improve the perception of the fake nudes but has the following limitations:
+
+- This tool may decrease the quality of some photos.
+- The size of the photo with this effect will be 512x512 regardless of whether Waifu2X is activated.
+- Having the experimental option `Color Transfer` activated may reduce the quality by having different colors.
+- The photo must be saved manually.
+
+![](/img/examples/stas-svechnikov-l-u--RUN1-1602825455087-dreamtime.png)
 
 ### Per run
 

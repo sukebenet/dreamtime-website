@@ -2,6 +2,28 @@
 title: Changelog
 ---
 
+## v1.5.9
+
+### 🔨 Fixes
+
+- Fix: DreamPower's empty response showed an error unrelated to the real problem.
+- Fix: Body part slider was not displayed when disabling `Randomize?`.
+- Fix: Updating from the Snap Store left the installation with some permission problems.
+
+### ✨ Features
+
+- **X-Rays Effect:** New tool that allows to create an X-Rays effect on the fake nude by adding the photo with clothes over, it can be opened with a button and it is possible to customize the transparency strength.
+
+### 💪 Improvements
+
+- Options with `Enabled/Disabled` values are now represented with a checkbox.
+- The body part size slider now changes its value every 0.05 instead of 0.02
+- Added dates in changelog releases.
+- Added more help messages about problems with DreamPower.
+- Some improvements in design.
+
+---
+
 ## v1.5.8
 
 ### 🔨 Fixes
