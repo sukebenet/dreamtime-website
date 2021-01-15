@@ -2,6 +2,10 @@
 title: xxxPaint
 ---
 
+:::info
+The xxxPaint community on Keybase has been banned. The new chat is now in [chat.xxxpaint.com](https://chat.xxxpaint.com)
+:::
+
 xxxPaint is a new nudification algorithm made from scratch by [deeppppp](/docs/support/team/#deeppppp), unlike [DreamPower](/docs/dreampower), this algorithm does not use the DeepNude dataset or code, it creates higher quality fake nudes for both front and 🍑.
 
 ![](/img/screely-1589684389844.png)
@@ -10,13 +14,13 @@ xxxPaint is currently in **BETA** and **closed source-code**.
 
 ## Features
 
-|                    | xxxPaint | DreamPower |
-|--------------------|------------|----------|
-| Higher Quality |✔️|❌|
-| No resolution restriction |✔️|❌|
-| Ass Nudification 🍑 |✔️|❌|
-| Easy to use |❌|✔️|
-| Offline usage |❌|✔️|
+|                           | xxxPaint | DreamPower |
+| ------------------------- | -------- | ---------- |
+| Higher Quality            | ✔️        | ❌          |
+| No resolution restriction | ✔️        | ❌          |
+| Ass Nudification 🍑        | ✔️        | ❌          |
+| Easy to use               | ❌        | ✔️          |
+| Offline usage             | ❌        | ✔️          |
 
 ### Higher Quality
 
@@ -50,11 +54,7 @@ The closed BETA will allow detecting bugs, quality problems and giving a preview
 
 ### How to apply to the BETA?
 
-Anyone interested in testing and reporting problems can request an invitation on [Keybase](https://keybase.io/xxxpaint).
-
-:::info
-Keep in mind that there will not always be people available in the chat, please be patient.
-:::
+For now there is no specific date for an open BETA, it can open and close at any time. It would be recommended to join the chat at [chat.xxxpaint.com](https://chat.xxxpaint.com) to stay informed.
 
 ### Can I download the algorithm?
 
@@ -68,7 +68,7 @@ In the future, work will be done to offer a downloadable CLI version like DreamP
 
 Because xxxPaint is a cloud service, **it cannot be used with DreamTime v1**.
 
-However **DreamTime v2** is in development right now and with this new version the use of xxxPaint within the application could become a reality.
+However **DreamTime v2** is in development and with this new version the use of xxxPaint within the application could become a reality.
 
 
 ## Examples
