@@ -21,3 +21,4 @@ deeppppp is the main developer of [DreamPower](/docs/dreampower).
 
 - [Github](https://github.com/deeppppp)
 - [deeppppp[at]dreamnet.tech](mailto:deeppppp@dreamnet.tech)
+- [xxxPaint chat.](https://chat.xxxpaint.com)

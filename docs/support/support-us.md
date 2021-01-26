@@ -41,23 +41,6 @@ Places and addresses where you can make anonymous donations with crypto-currenci
 
 Services and applications we recommend:
 
-### Brave
-
-Brave is a web browser based on Chromium with really attractive features:
-
-- **Google code removed:** Enjoy the power of Chromium without the Google trackers.
-- **Native Adblocker:** Blocks ads, trackers, third party cookies and other threats to your privacy and bandwidth. You can disable these filters per site.
-- **Brave Rewards:** If you wish you can accept to receive occasional ad os-notifications and win a few bucks just for surfing the web as you always do.
-  - [BAT](https://basicattentiontoken.org/) is the crypto currency you earn for your attention, it is easy to create an account in Uphold to receive your BAT and transform it to other crypto currencies or to your local currency and transfer it to your bank account every month.
-  - No need to click on the ad, by the time you get the notification you have already earned BAT for your attention, even if you ignore it.
-- **IPFS:** Native extension that allows you to use the [IPFS network](https://ipfs.io/) in the browser. DreamNet uses IPFS for things like sharing our applications.
-- **Torrent**: Native WebTorrent support that allows you to open torrent files and magnet links to view their content, information and download.
-- **Crypto Wallets:** Native [MetaMask](https://metamask.io/) support for managing, receiving and sending ERC-20 crypto-currencies.
-
-🥰 By downloading and using Brave with the link below you are supporting us:
-
-[![https://brave.com/dre063](/img/1200x675-twitter.png)](https://brave.com/dre063)
-
 ### MEGA
 
 - Massive storage space. 

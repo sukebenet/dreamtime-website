@@ -7,20 +7,16 @@ import TabItem from '@theme/TabItem';
 
 ![](/img/previews/screely-1595709108433.png)
 
-:::info
-If you don't have a compatible device you can use the online version with [**Google Colab**](/docs/guide/google-colab).
-:::
-
 ## Requirements
 
 - 64-bit operating system:
-  - Windows 7 or superior.
-  - [Compatible Linux distribution](https://snapcraft.io/docs/installing-snapd).
-  - macOS Catalina or superior.
+  - Windows 7 or superior
+  - [Compatible Linux distribution](https://snapcraft.io/docs/installing-snapd)
+  - macOS Catalina or superior
 
 ### CPU
 
-- **12 GB** of RAM.
+- **8 GB** of RAM.
 
 ### GPU (Optional)
 
@@ -28,27 +24,12 @@ If you don't have a compatible device you can use the online version with [**Goo
 - Minimum [3.5 CUDA compute capability](https://developer.nvidia.com/cuda-gpus). (GeForce GTX 780+)
 - [Latest NVIDIA drivers](https://www.nvidia.com/Download/index.aspx).
 - **6 GB** of GPU VRAM.
-- **8 GB** of RAM.
-
-:::caution
-NVIDIA RTX 3000 series GPU's are not yet compatible with DreamTime.
-:::
-
----
-
-## VirusTotal
-
-One of DreamTime's goals is to prevent people from catching malware by downloading compromised copies of DeepNude.
-
-**DreamTime is totally safe** and its source code is available to everyone. Please check the following links to VirusTotal for Windows versions.
-
-[![](https://img.shields.io/badge/v1.5.5-installer-394EFF?logo=virustotal&logoColor=white&style=for-the-badge)](https://www.virustotal.com/gui/file/af8f2ef1d347060b2ee917256939bfc187d97a9b90fef7f0ae0d0a767a245410/detection)
-
-[![](https://img.shields.io/badge/v1.5.5-portable-394EFF?logo=virustotal&logoColor=white&style=for-the-badge)](https://www.virustotal.com/gui/file/f4647261a703a6a735c8f94a671fa10155fe80449239a4270f4ff537a78da3d1/detection)
 
 ---
 
 ## Releases
+
+> Looking for an older version? You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
 
 <Tabs
   defaultValue="windows"
@@ -63,23 +44,23 @@ One of DreamTime's goals is to prevent people from catching malware by downloadi
 <TabItem value="windows">
 
 :::info
-- **N versions of Windows 10** require installing the [Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack).
-- DreamTime does not have a trusted certificate, you will receive an alert from **SmartScreen**.
+- **N versions of Windows 10** may require installing the [Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack).
+- DreamTime is not distributed with a trusted certificate, you will receive an alert from **SmartScreen**.
 :::
 
 **Installer**
 
-[![](https://img.shields.io/badge/v1.5.9-download%20installer-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.9/windows)
-
-Double click the executable to open the installer.
+[![](https://img.shields.io/badge/v1.5.10-download%20installer-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.10/windows)
 
 ---
 
 **Portable**
 
-[![](https://img.shields.io/badge/v1.5.9-download%20zip-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.9/windows/portable)
+[![](https://img.shields.io/badge/v1.5.10-download%20zip-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.10/windows/portable)
 
 Extract the contents of the zip wherever you want and execute the file `DreamTime.exe`
+
+To upgrade just replace the files of the previous version.
 
 </TabItem>
 
@@ -97,34 +78,36 @@ Install [Snap](https://snapcraft.io/docs/installing-snapd) and execute the follo
 
 **Portable**
 
-[![](https://img.shields.io/badge/v1.5.9-download%20zip-E95420?logo=linux&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.9/linux/portable)
+[![](https://img.shields.io/badge/v1.5.10-download%20zip-E95420?logo=linux&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.10/linux/portable)
 
 Extract the contents of the zip wherever you want and execute the file `dreamtimetech`
+
+To upgrade just replace the files of the previous version.
 
 </TabItem>
 
 <TabItem value="macos">
 
-**DMG**
-
-[![](https://img.shields.io/badge/v1.5.9-download%20dmg-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.9/macos)
-
-Double click the DMG file to open the installer.
-
-:::info DreamTime does not have a trusted certificate.
+:::info DreamTime is not distributed with a trusted certificate
 You may have to run the application for the first time using the context menu while pressing the `shift` key. To avoid problems related to running third-party applications please run the following command: `sudo spctl --master-disable` [More information here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave).
 :::
+
+**DMG**
+
+[![](https://img.shields.io/badge/v1.5.10-download%20dmg-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.10/macos)
 
 ---
 
 **Portable**
 
-[![](https://img.shields.io/badge/v1.5.9-download%20zip-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.9/macos/portable)
+[![](https://img.shields.io/badge/v1.5.10-download%20zip-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.10/macos/portable)
 
 Extract the contents of the zip wherever you want, right click on the `DreamTime` application, select the `Show Package Contents` option and open the file `/Contents/MacOS/DreamTime`
 
+To upgrade just replace the files of the previous version.
+
 :::info
-The portable version allows you to use DreamTime without having to move it to the applications folder, however this can cause problems on some systems. We recommend always installing the DMG file.
+The portable version allows you to use DreamTime without having to move it to the applications folder, however this can cause problems. We recommend installing the DMG file.
 :::
 
 </TabItem>
@@ -148,5 +131,26 @@ Why wait up to **1 month** for new versions? Support us by becoming a Patron or 
 </TabItem>
 
 </Tabs>
+
+---
+
+## VirusTotal
+
+One of DreamTime's goals is to prevent people from catching malware by downloading compromised copies of DeepNude.
+
+**DreamTime is totally safe** and its source code is available to everyone. Please check the following links to VirusTotal for Windows versions.
+
+[![](https://img.shields.io/badge/v1.5.5-installer-394EFF?logo=virustotal&logoColor=white&style=for-the-badge)](https://www.virustotal.com/gui/file/af8f2ef1d347060b2ee917256939bfc187d97a9b90fef7f0ae0d0a767a245410/detection)
+
+[![](https://img.shields.io/badge/v1.5.5-portable-394EFF?logo=virustotal&logoColor=white&style=for-the-badge)](https://www.virustotal.com/gui/file/f4647261a703a6a735c8f94a671fa10155fe80449239a4270f4ff537a78da3d1/detection)
+
+---
+
+## FAQ
+
+- [Error: Installation aborted](/docs/support/faq#installation-aborted)
+- [Permission issues on Linux when installing with Snap.](/docs/support/faq#permission-issues-in-linux)
+- [Mac M1 support?](/docs/support/faq#mac-m1-support)
+- [32-bit support?](/docs/support/faq#32-bit-support)
 
 <ins data-revive-zoneid="3" data-revive-id="3fe087377ab3999f9bd455cef8976f0b"></ins>

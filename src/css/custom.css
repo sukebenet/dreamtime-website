@@ -7,27 +7,29 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #D67411;
-  --ifm-color-primary-dark: #C1680F;
+  --ifm-color-primary-dark: #ab5d0e;
   --ifm-color-primary-darker: #80460A;
-  --ifm-color-primary-darkest: #603408;
-  --ifm-color-primary-light: #E29E58;
-  --ifm-color-primary-lighter: #EFC7A0;
-  --ifm-color-primary-lightest: #F5DCC4;
+  --ifm-color-primary-darkest: #562e07;
+  --ifm-color-primary-light: #de9041;
+  --ifm-color-primary-lighter: #e6ac70;
+  --ifm-color-primary-lightest: #efc7a0;
   --ifm-code-font-size: 95%;
   --ifm-font-size-base: 16px;
   --ifm-hero-background-color: var(--ifm-footer-background-color);
-  --ifm-font-family-base: Inter, -apple-system, BlinkMacSystemFont, system-ui, Arial, sans-serif;
-}
-
-html {
-
+  --ifm-font-family-base: Rubik, -apple-system, BlinkMacSystemFont, system-ui, Arial, sans-serif;
+  --ifm-color-info: #5E81AC;
+  --ifm-color-warning: #EBCB8B;
+  --ifm-color-danger: #BF616A;
 }
 
 html[data-theme='dark'] {
-  --ifm-navbar-background-color: #161a1f;
-  --ifm-footer-background-color: #161a1f;
-  --ifm-hero-background-color: #000;
-  --ifm-background-color: #14171C;
+  --ifm-navbar-background-color: #20242d;
+  --ifm-footer-background-color: #20242d;
+  --ifm-hero-background-color: #14171d;
+  --ifm-background-color: #191d24;
+  --ifm-heading-color: white;
+  --ifm-font-color-base: #ECEFF4;
+  --ifm-hero-text-color: #E5E9F0;
 }
 
 .docusaurus-highlight-code-line {
@@ -81,4 +83,8 @@ ins {
 
 video {
   width: 100%;
+}
+
+.admonition h5 {
+  color: black;
 }

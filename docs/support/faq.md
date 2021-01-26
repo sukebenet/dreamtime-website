@@ -10,21 +10,34 @@ Our goal is to take this technology to all possible places, however developing o
 
 ---
 
-### Will there be a version for Android/iOS?
+### Android/iOS support?
 
-Yes, but not in the form of a native application.
+DreamTime has very high hardware requirements so a native mobile application will not be possible.
 
-The [minimum requirements](/docs/installation#requirements) are very high even for a PC, running DreamPower/DeepNude natively on a mobile device could cause it to stop responding completely.
+However for **DreamTime v2** we plan to offer the ability to use the power of your PC from any device with a web browser or to purchase real money credits to nude photos using the same interface.
 
-The alternative is to create a version that can be run from a web browser, a cloud version that uses servers for photo processing, however using this service will not be free. We will try to make this version as cheap as possible and with all possible payment methods.
+🌟 Meanwhile, we recommend using the versions in [Google Colab](/docs/guide/google-colab).
 
-🌟 Meanwhile, we recommend using the versions in [Google Colab](/docs/installation#releases) that will allow you to use DreamPower from a mobile device or a PC that does not meet the minimum requirements.
+---
+
+### Mac M1 support?
+
+Short answer: It is not in our hands, but it may arrive in the next months.
+
+DreamTime depends on Github Actions to prepare and compile the code for different platforms, support for Mac M1 and others is totally up to them.
+
+---
+
+### 32-bit support?
+
+The previous answer applies here. However, 32-bit operating systems are becoming obsolete so support for it is highly unlikely.
 
 ---
 
 ### How can I increase the resolution of the photos?
 
-- **Use the `Overlay` scale method:** This option is found in the global or photo settings, this scaling method allows to perform the nudification without changing the original resolution of the photo.
+- **Use the `Overlay` scale method:** This method allows you to nudify an area of the photo and keep the rest in their original size.
+- **Use Waifu2X:** The most recent versions of DreamTime include support for Waifu2X and perform super-scaling by activating a checkbox.
 - **Use a scale algorithm:** There are other AIs capable of photo super-scaling and noise reduction. For example:
   - [waifu2x](http://waifu2x.udp.jp/)
   - [waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe/releases)
@@ -83,8 +96,8 @@ You must download and/or install the component manually, you can get more inform
 
 Until now we only have reports that this occurs in devices that does not meet the [minimum requirements](/docs/installation#requirements), in these cases we cannot offer technical assistance beyond:
 
-- Close all the programs you can to free RAM.
-- Upgrade your hardware. 💻
+- Free up RAM closing other programs.
+- Upgrade your hardware.
 
 ---
 
@@ -100,12 +113,45 @@ Open `%appdata%/dreamtime` (Windows) or click on the `App` button in the `About`
 
 ### Installation aborted
 
-Known issue when installing a new version.
+Known issue that can occur when installing or updating with the Windows installer.
 
 **Solutions:**
 
 - Install [Bulk Crap Uninstaller](https://www.bcuninstaller.com/) and remove any trace of DreamTime, then re-install.
-- Uninstall DreamTime and try to re-install in both modes (`Only for me` or `For all users`)
+- Uninstall DreamTime and try to re-install with a different method (`Only for me` or `For all users`)
 - Use the portable version, extract and go.
 
+---
 
+### Permission issues in Linux
+
+Known issue that can occur when upgrading on Linux using Snap.
+
+**Solutions:**
+
+- Uninstall the previous version and perform a clean installation. (Make a backup of your nudes)
+- Use the portable version, extract and go.
+
+---
+
+### Updater: Installation failed.
+
+This problem means that the updater could not extract the content of the update file on your system.
+
+**Solutions:**
+
+- **Check that the file is not corrupt:** It is possible that due to a problem with your connection or the server the updater ended up downloading a corrupt file. This can be confirmed if you find the text "FILE_ENDED" or similar in the error. Please make sure you have a stable internet connection or change the download protocol to `IPFS or Torrent`.
+- Make sure that DreamTime has write permissions on the `Downloads` folder of your operating system and the folder of the component to install.
+- Make sure you have enough space on your disk, the download of components is usually very large (More than 3GB in some systems).
+
+---
+
+### Updater: INTERNAL ERROR!
+
+This problem means that DreamTime has not been able to validate that the component is working correctly and it is very possible that you need help to diagnose and fix the error.
+
+Please visit [our chat](https://chat.dreamnet.tech) and post all the error message that appears in the black box.
+
+:::info
+If you are using **Windows** please make sure you don't have the following file: `C:\Windows\System32\libiomp5md.dll` if so, delete or rename it and restart DreamTime.
+:::

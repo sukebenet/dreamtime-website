@@ -52,6 +52,10 @@ module.exports = {
               href: 'https://dreamnet.tech',
             },
             {
+              label: 'Discussions',
+              href: 'https://github.com/dreamnettech/dreamtime/discussions',
+            },
+            {
               label: 'Chat',
               href: 'https://chat.dreamnet.tech',
             },
@@ -79,6 +83,10 @@ module.exports = {
             {
               label: 'Chat',
               href: 'https://chat.dreamnet.tech',
+            },
+            {
+              label: 'Discussions',
+              href: 'https://github.com/dreamnettech/dreamtime/discussions',
             },
           ],
         },
@@ -143,7 +151,7 @@ module.exports = {
     ],
   ],
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap'
+    'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap'
   ],
   plugins: [
     '@dreamnet/docusaurus-plugin-dreamtime'

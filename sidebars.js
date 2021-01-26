@@ -12,8 +12,8 @@ module.exports = {
       label: 'About',
       items: [
         'dreamtime',
-        'why',
         'dreampower',
+        'why',
         'xxxpaint'
       ],
     },

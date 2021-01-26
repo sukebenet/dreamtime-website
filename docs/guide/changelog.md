@@ -2,6 +2,34 @@
 title: Changelog
 ---
 
+> You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
+
+## v1.5.10
+
+### 🔨 Fixes
+
+- Fix: GPUs not recognized on some systems.
+- Fix: Badtime minigame easter-egg does not load correctly.
+- Fix: X-Ray tool was not updating correctly on changes to the nude.
+
+### ✨ Features
+
+- **System stats:** New option in `Settings -> App` that allows monitoring the following system stats:
+  - RAM Usage.
+  - CPU Usage.
+  - VRAM Usage. (GPU)
+  - GPU Usage.
+
+### 💪 Improvements
+
+- Major design improvements.
+- Added X-Ray tool on custom masks.
+- Added `Trypophobia mode` on settings to remove images that can trigger trypophobia.
+- Crops within the limits of the photo will use code that will avoid the quality decrease.
+- Improved window grip on top.
+
+---
+
 ## v1.5.9
 
 ### 🔨 Fixes
