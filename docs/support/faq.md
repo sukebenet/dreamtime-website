@@ -22,15 +22,23 @@ However for **DreamTime v2** we plan to offer the ability to use the power of yo
 
 ### Mac M1 support?
 
-Short answer: It is not in our hands, but it may arrive in the next months.
+Short answer: It does not depend on us, but it may arrive in the next months.
 
-DreamTime depends on Github Actions to prepare and compile the code for different platforms, support for Mac M1 and others is totally up to them.
+DreamTime depends on Github Actions to prepare and compile the code for different platforms, support for Mac M1 and others depends on them and is currently in the planning phase for implementation.
 
 ---
 
 ### 32-bit support?
 
 The previous answer applies here. However, 32-bit operating systems are becoming obsolete so support for it is highly unlikely.
+
+---
+
+### AMD GPU's support?
+
+Short answer: It does not depend on us.
+
+The algorithm uses PyTorch as framework for the artificial intelligence, the support for AMD GPU's depends on them and for now it is in very experimental phase and only available for Linux.
 
 ---
 
@@ -143,6 +151,7 @@ This problem means that the updater could not extract the content of the update 
 - **Check that the file is not corrupt:** It is possible that due to a problem with your connection or the server the updater ended up downloading a corrupt file. This can be confirmed if you find the text "FILE_ENDED" or similar in the error. Please make sure you have a stable internet connection or change the download protocol to `IPFS or Torrent`.
 - Make sure that DreamTime has write permissions on the `Downloads` folder of your operating system and the folder of the component to install.
 - Make sure you have enough space on your disk, the download of components is usually very large (More than 3GB in some systems).
+- If all else fails, you may need to [download and install the update manually](/docs/guide/components).
 
 ---
 
