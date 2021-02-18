@@ -2,7 +2,76 @@
 title: Changelog
 ---
 
-> You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
+> ⭐ You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
+
+## v1.6.0
+
+### 🔨 Fixes
+
+- Fix: The X-Ray tool did not work properly on some scale methods.
+- Fix: The application kept loading infinitely when an error occurred connecting to DreamTrack.
+- Fix: Some crop tools exported the result in 512x512 instead of the size indicated by the `Image size` option.
+
+### ✨ Features
+
+- **Video preview:** Now you can see a preview of your video during nudification.
+- **Results columns:** New option. Allows you to force a number of columns to display on the results page. (Ideal for large screens)
+
+### 💪 Improvements
+
+- **X-Ray tool**: The result is now exported in the size indicated by the `Image size` option.
+- **Crop tool**: 
+  - Opens as a floating dialog offering more space to work.
+  - Requires saving the changes manually with the option to dismiss.
+  - Changes made in the editor tool are applied automatically.
+  - Changes in the `Scale method` or `Image size` options are applied automatically fixing several problems.
+- **Editor tool**:
+  - Opens as a floating dialog offering more space to work.
+  - Requires saving the changes manually with the option to dismiss.
+- The preview of the photo panel now shows changes in real time of what will be sent to the algorithm and it is possible to open it by clicking.
+- Improved the detection time for external file changes.
+- Application scrolling is now smoother.
+
+🌟 This release is available exclusively to Patrons for 15 days!
+
+[![](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
+
+---
+
+## v1.5.12
+
+### 🔨 Fixes
+
+- Fix: Photos with special characters did not load in the preview, editor and crop tool.
+- Fix: Changes made by Waifu2X were not shown in the final result.
+- Fix: X-Ray tool visible during the video nudification.
+
+### 💪 Improvements
+
+- Added the `Status` section to know if your PC meets the requirements of the application.
+- Added the built-in editor for the custom masks.
+- It is now possible to dismiss the global alert.
+
+---
+
+## v1.5.11
+
+### 🔨 Fixes
+
+- Fix: Incorrect GPU stats on some systems.
+- Fix: Update available notification did not redirect to the updater when clicking on the text.
+- Fix: The IPFS protocol method for downloads was not working properly.
+- Fix: The link to go to the DreamPower updater in `About` was not working correctly.
+
+### 💪 Improvements
+
+- System stats moved to the top of the main menu.
+- Now you can click on the `is up to date` element of the projects in `About` to go to the updater in case you want to download the file again and reinstall.
+- Now it is possible to disable the Waifu2X `Upscale ratio` option to perform only denoise.
+- Added a `Go back` button in the updater if the component is installed.
+- Removed code that loaded the content of some photos into RAM, reducing their consumption and fixing errors when opening multiple files or files over 2GB.
+
+---
 
 ## v1.5.10
 

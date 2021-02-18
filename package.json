@@ -1,24 +1,22 @@
 {
-  "name": "www-dreamtime-docusaurus",
-  "version": "0.1.0",
+  "name": "@dreamnet/dreamtime-docusaurus",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "clean": "shx rm -rf build/",
     "start": "docusaurus start",
     "build": "yarn run clean && docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "deploy build -p pinata -d cloudflare -n www-dreamtime -s ."
+    "deploy": "deploy build -p pinata -p dreamlink-cluster -d cloudflare -n www-dreamtime -s ."
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
+      ">0.5%",
+      "not ie 11",
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 chrome version"
     ]
   },
   "dependencies": {
@@ -29,14 +27,13 @@
     "@dreamnet/docusaurus-plugin-dreamtime": "^0.1.0",
     "classnames": "^2.2.6",
     "color": "^3.1.2",
-    "ipfs-deploy": "^7.14.0",
     "npm-to-yarn": "^1.0.0-2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "youch": "^2.1.1"
   },
   "devDependencies": {
-    "@dreamnet/deploy": "^0.1.0",
+    "@dreamnet/deploy-cli": "^1.0.2",
     "@mdx-js/react": "^1.6.16",
     "clsx": "^1.1.1",
     "shx": "^0.3.2"

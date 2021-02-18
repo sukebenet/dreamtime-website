@@ -16,13 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Install Node.js 12.x
+      - name: Install Node.js 14.x
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
-
-      - name: Install Yarn
-        run: npm install -g yarn
+          node-version: 14.x
 
       - name: Setup
         run: yarn install
@@ -34,11 +31,10 @@ jobs:
         run: yarn run deploy
         timeout-minutes: 20
         env:
-          DEPLOY_PINATA_KEY: ${{ secrets.DEPLOY_PINATA_KEY }}
-          DEPLOY_PINATA_SECRET: ${{ secrets.DEPLOY_PINATA_SECRET }}
-          DEPLOY_DREAMLINKCLUSTER_USERNAME: ${{ secrets.DEPLOY_DREAMLINKCLUSTER_USERNAME }}
+          DEPLOY_PINATA_TOKEN: ${{ secrets.DEPLOY_PINATA_TOKEN }}
+          DEPLOY_DREAMLINKCLUSTER_USERNAME: dreamnet
           DEPLOY_DREAMLINKCLUSTER_PASSWORD: ${{ secrets.DEPLOY_DREAMLINKCLUSTER_PASSWORD }}
           DEPLOY_CLOUDFLARE_EMAIL: ${{ secrets.DEPLOY_CLOUDFLARE_EMAIL }}
           DEPLOY_CLOUDFLARE_KEY: ${{ secrets.DEPLOY_CLOUDFLARE_KEY }}
           DEPLOY_CLOUDFLARE_ZONE: dreamtime.tech
-          DEPLOY_CLOUDFLARE_RECORD: _dnslink
+          DEPLOY_CLOUDFLARE_RECORD: _dnslink.www
