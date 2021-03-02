@@ -4,6 +4,43 @@ title: Changelog
 
 > ⭐ You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
 
+## v1.6.1
+
+### 🔨 Fixes
+
+- Fixed: The "Status" section incorrectly reports the VRAM status.
+- Fixed: The application froze when an error occurred.
+- Fixed: Some system stats are shown as `NaN`.
+- Fixed: Queue not updating correctly.
+- Fixed: "Crazy" video frame counter value when `Video workers` > 1
+- Fixed: Application consumed a lot of RAM during video nudification.
+- Fixed: Video preview not working correctly due to quick changes. Now updates every 1.5s
+- Fixed: Video preview not working on GIFs.
+
+### ✨ Features
+
+- 🐧 `AppImage` and `rpm` releases are now available for Linux.
+- 🎬 Added the upload methods: YouTube and Giphy.
+
+### 💪 Improvements
+
+- Portable releases are now distributed as `7z` instead of `zip`. (Smaller file size)
+- Improved settings order in "Application".
+- Improved texts of the "Status" page.
+- Added algorithm status message during nudification.
+- Renamed `CPU Cores` option to `Video workers`
+
+### 🍭 Others
+
+- Added a link to the source code of the "Badtime" minigame.
+- Disabled snapshots creation when an error occurs.
+
+🌟 This release is available exclusively to Patrons for 15 days!
+
+[![](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
+
+---
+
 ## v1.6.0
 
 ### 🔨 Fixes

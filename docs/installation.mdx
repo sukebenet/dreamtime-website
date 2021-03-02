@@ -13,14 +13,12 @@ import TabItem from '@theme/TabItem';
   - Windows 7 or superior
   - [Compatible Linux distribution](https://snapcraft.io/docs/installing-snapd)
   - macOS Catalina or superior
-
-### CPU
-
 - **8 GB** of RAM.
+
 
 ### GPU (Optional)
 
-- **NVIDIA GPU** (AMD GPU's are not supported)
+- **NVIDIA GPU**
 - Minimum [3.5 CUDA compute capability](https://developer.nvidia.com/cuda-gpus). (GeForce GTX 780+)
 - [Latest NVIDIA drivers](https://www.nvidia.com/Download/index.aspx).
 - **6 GB** of GPU VRAM.
@@ -29,7 +27,11 @@ import TabItem from '@theme/TabItem';
 
 ## Releases
 
-> Looking for an older version? You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
+>
+Current version **v1.5.12**
+>
+Looking for an older version? You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
+>
 
 <Tabs
   defaultValue="windows"
@@ -38,7 +40,9 @@ import TabItem from '@theme/TabItem';
     { label: 'Linux', value: 'linux', },
     { label: 'Mac', value: 'macos', },
     { label: 'Google Colab', value: 'colab', },
-    { label: '🌟 Early access', value: 'patreon', },
+    { label: 'Early access', value: 'patreon', },
+    { label: 'Virustotal', value: 'virus', },
+    { label: 'FAQ', value: 'faq', },
   ]
 }>
 <TabItem value="windows">
@@ -48,67 +52,29 @@ import TabItem from '@theme/TabItem';
 - DreamTime is not distributed with a trusted certificate, you will receive an alert from **SmartScreen**.
 :::
 
-**Installer**
-
-[![](https://img.shields.io/badge/v1.5.12-download%20installer-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.12/windows)
-
----
-
-**Portable**
-
-[![](https://img.shields.io/badge/v1.5.12-download%20zip-0078D6?logo=windows&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.12/windows/portable)
-
-Extract the contents of the zip wherever you want and execute the file `DreamTime.exe`
-
-To upgrade just replace the files of the previous version.
+- [DreamTime-v1.5.12-windows-installer.exe](https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12?platform=windows)
+- [DreamTime-v1.5.12-windows-portable.zip](https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12?platform=windows&arch=portable)
 
 </TabItem>
 
 <TabItem value="linux">
 
-**Snap**
-
-Install [Snap](https://snapcraft.io/docs/installing-snapd) and execute the following command:
-
-`sudo snap install dreamtimetech`
-
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/dreamtimetech)
-
----
-
-**Portable**
-
-[![](https://img.shields.io/badge/v1.5.12-download%20zip-E95420?logo=linux&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.12/linux/portable)
-
-Extract the contents of the zip wherever you want and execute the file `dreamtimetech`
-
-To upgrade just replace the files of the previous version.
+- [Snap Store](https://snapcraft.io/dreamtimetech)
+- [DreamTime-v1.5.12-ubuntu-installer.snap](https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12?platform=ubuntu)
+- [DreamTime-v1.5.12-ubuntu-portable.zip](https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12?platform=ubuntu&arch=portable)
 
 </TabItem>
 
 <TabItem value="macos">
 
-:::info DreamTime is not distributed with a trusted certificate
-You may have to run the application for the first time using the context menu while pressing the `shift` key. To avoid problems related to running third-party applications please run the following command: `sudo spctl --master-disable` [More information here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave).
-:::
-
-**DMG**
-
-[![](https://img.shields.io/badge/v1.5.12-download%20dmg-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.12/macos)
-
----
-
-**Portable**
-
-[![](https://img.shields.io/badge/v1.5.12-download%20zip-999999?logo=Apple&logoColor=white&style=for-the-badge)](https://downloads.dreamnet.tech/dreamtime/v1.5.12/macos/portable)
-
-Extract the contents of the zip wherever you want, right click on the `DreamTime` application, select the `Show Package Contents` option and open the file `/Contents/MacOS/DreamTime`
-
-To upgrade just replace the files of the previous version.
-
 :::info
-The portable version allows you to use DreamTime without having to move it to the applications folder, however this can cause problems. We recommend installing the DMG file.
+- DreamTime is not distributed with a trusted certificate, you may have to run the application for the first time using the context menu while pressing the `shift` key. To avoid problems related to running third-party applications please run the following command: `sudo spctl --master-disable` [More information here](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave).
+- The portable version allows you to use DreamTime without having to move it to the applications folder and this can cause problems. We recommend installing the DMG file.
+- Portable instructions: Extract the contents of the zip wherever you want, right click on the `DreamTime` application, select the `Show Package Contents` option and open the file `/Contents/MacOS/DreamTime`
 :::
+
+- [DreamTime-v1.5.12-macos-installer.dmg](https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12?platform=macos)
+- [DreamTime-v1.5.12-macos-portable.zip](https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12?platform=macos&arch=portable)
 
 </TabItem>
 
@@ -116,43 +82,40 @@ The portable version allows you to use DreamTime without having to move it to th
 
 Google Colab allows you to use the nudification algorithm from any device with a web browser.
 
-[![](https://img.shields.io/badge/oogle-Colab-4285F4?logo=google&logoColor=white&style=for-the-badge)](/docs/guide/google-colab)
+- [Google Colab Guide](/docs/guide/google-colab)
 
 </TabItem>
 
 <TabItem value="patreon">
 
-Why wait up to **1 month** for new versions? Support us by becoming a Patron or a Coffe Member and get access to the new versions before anyone else!
+Why wait up to **1 month** for new versions? Support us by becoming a Patron and get access to the new versions before anyone else!
 
 [![](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
 
-[![](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg)](https://www.buymeacoffee.com/dreamnettech)
-
 </TabItem>
 
-</Tabs>
-
----
-
-## VirusTotal
+<TabItem value="virus">
 
 One of DreamTime's goals is to prevent people from catching malware by downloading compromised copies of DeepNude.
 
 **DreamTime is totally safe** and its source code is available to everyone. Please check the following links to VirusTotal for Windows versions.
 
-[![](https://img.shields.io/badge/v1.5.5-installer-394EFF?logo=virustotal&logoColor=white&style=for-the-badge)](https://www.virustotal.com/gui/file/af8f2ef1d347060b2ee917256939bfc187d97a9b90fef7f0ae0d0a767a245410/detection)
+- [DreamTime-v1.5.12-windows-installer.exe](https://www.virustotal.com/gui/file/af8f2ef1d347060b2ee917256939bfc187d97a9b90fef7f0ae0d0a767a245410/detection)
+- [DreamTime-v1.5.12-windows-portable.zip](https://www.virustotal.com/gui/file/f4647261a703a6a735c8f94a671fa10155fe80449239a4270f4ff537a78da3d1/detection)
 
-[![](https://img.shields.io/badge/v1.5.5-portable-394EFF?logo=virustotal&logoColor=white&style=for-the-badge)](https://www.virustotal.com/gui/file/f4647261a703a6a735c8f94a671fa10155fe80449239a4270f4ff537a78da3d1/detection)
+</TabItem>
 
----
-
-## FAQ
+<TabItem value="faq">
 
 - [Error: Installation aborted](/docs/support/faq#installation-aborted)
-- [Permission issues on Linux when installing with Snap.](/docs/support/faq#permission-issues-in-linux)
+- [Permission issues on Linux Snap.](/docs/support/faq#permission-issues-in-linux)
 - [Android/iOS support?](/docs/support/faq#androidios-support)
 - [AMD GPU's support?](/docs/support/faq#amd-gpus-support)
-- [Mac M1 support?](/docs/support/faq#mac-m1-support)
+- [Apple Silicon support?](/docs/support/faq#mac-m1-support)
 - [32-bit support?](/docs/support/faq#32-bit-support)
+
+</TabItem>
+
+</Tabs>
 
 <ins data-revive-zoneid="3" data-revive-id="3fe087377ab3999f9bd455cef8976f0b"></ins>

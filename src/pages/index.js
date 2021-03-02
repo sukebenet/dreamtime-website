@@ -18,38 +18,29 @@ const features = [
     ),
   },
   {
+    title: 'Open-source',
+    imageUrl: 'img/features/undraw_open_source_1qxw.svg',
+    description: (
+      <>
+        Source code available and totally free, without premium versions or cracks.
+      </>
+    ),
+  },
+  {
     title: 'Friendly user interface',
     imageUrl: 'img/features/undraw_trendy_interface_lg8x.svg',
     description: (
       <>
-        Easy to use thanks to its modern design and stability that exceeds DeepNude.
+        More stable than DeepNude and easy to use thanks to its modern design.
       </>
     ),
   },
   {
-    title: 'Create the body of your dreams',
+    title: 'Body customization',
     imageUrl: 'img/features/undraw_adjustments_p22m.svg',
     description: (
       <>
-        Customize and create the body of your dreams, increase or decrease the size of the body parts or leave everything to random.
-      </>
-    ),
-  },
-  {
-    title: 'Use files from anywhere',
-    imageUrl: 'img/features/undraw_upload_87y9.svg',
-    description: (
-      <>
-        Use files from your computer (folders too!), from Instagram or from all over the web.
-      </>
-    ),
-  },
-  {
-    title: 'Photo tools',
-    imageUrl: 'img/features/undraw_smart_resize_wpn8.svg',
-    description: (
-      <>
-        Incorporated with easy-to-use tools to edit and crop your photo. You can also let the process to be completely automatic.
+        Create the body of your dreams, increase or decrease the size of the body parts or leave everything to random.
       </>
     ),
   },
@@ -58,7 +49,25 @@ const features = [
     imageUrl: 'img/features/undraw_video_files_fu10.svg',
     description: (
       <>
-        Don't just stay with static photos, you can also nudify gifs, mp4 or webm videos!
+        Don't just stay with static photos, you can also nudify <b>GIFs, MP4 and WEBM</b> videos!
+      </>
+    ),
+  },
+  {
+    title: 'Photos and videos from anywhere',
+    imageUrl: 'img/features/undraw_upload_87y9.svg',
+    description: (
+      <>
+        Open files or folders from your computer, you can also open files from Instagram and the web.
+      </>
+    ),
+  },
+  {
+    title: 'Photo tools',
+    imageUrl: 'img/features/undraw_smart_resize_wpn8.svg',
+    description: (
+      <>
+        Vitamined with editing tools for any case, you can also make the process fully automatic.
       </>
     ),
   },
@@ -67,7 +76,7 @@ const features = [
     imageUrl: 'img/features/undraw_making_art_759c.svg',
     description: (
       <>
-        Is the algorithm not doing a good job? With the custom masks mode you can help him and obtain results that only a human could achieve.
+        Powerful working method that allows you to edit the algorithm step by step and obtain results that only a human could achieve.
       </>
     ),
   },
@@ -76,7 +85,7 @@ const features = [
     imageUrl: 'img/features/undraw_speed_test_wxl0.svg',
     description: (
       <>
-        Use the power of your NVIDIA GPU to nudify photos in just a few seconds or use the slowest method for any CPU.
+        Use the power of your NVIDIA GPU to nudify in just a few seconds or use the slowest method for any CPU.
       </>
     ),
   },
@@ -85,7 +94,7 @@ const features = [
     imageUrl: 'img/features/undraw_update_uxn2.svg',
     description: (
       <>
-        DreamTime, DreamPower and Checkpoints updates can be downloaded and installed from the app itself. All in one.
+        DreamTime and its components updates can be downloaded and installed from the app itself.
       </>
     ),
   },
@@ -94,7 +103,7 @@ const features = [
     imageUrl: 'img/features/undraw_blank_canvas_3rbb.svg',
     description: (
       <>
-        Switch to DreamTime now and find out <a href="/docs/dreamtime#features">why it's better</a>.
+        Switch to DreamTime now and find out <a href="/docs/dreamtime#comparison">why it's better</a>.
       </>
     ),
   }
@@ -125,7 +134,7 @@ function Home() {
         <div className="container">
           <img src="img/logo.png" className="hero__logo" />
           <h1 className="hero__title">{siteConfig.customFields.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">🙈 The easiest to use application to create fake nudes from photos and videos.</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(

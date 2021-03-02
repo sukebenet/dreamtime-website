@@ -1,6 +1,6 @@
 module.exports = {
   title: 'DreamTime - Fake Nudes Application',
-  tagline: '🙈 Use artificial intelligence to create fake nudes.',
+  tagline: 'Use artificial intelligence to create fake nudes.',
   url: 'https://time.dreamnet.tech',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
