@@ -8,25 +8,25 @@ title: Changelog
 
 ### 🔨 Fixes
 
-- Fixed: The "Status" section incorrectly reports the VRAM status.
-- Fixed: The application froze when an error occurred.
+- Fixed: Status page incorrectly reports the VRAM status.
+- Fixed: Application freezes when an error occurred.
 - Fixed: Some system stats are shown as `NaN`.
 - Fixed: Queue not updating correctly.
 - Fixed: "Crazy" video frame counter value when `Video workers` > 1
-- Fixed: Application consumed a lot of RAM during video nudification.
+- Fixed: High RAM usage during video nudification.
 - Fixed: Video preview not working correctly due to quick changes. Now updates every 1.5s
 - Fixed: Video preview not working on GIFs.
 
 ### ✨ Features
 
-- 🐧 `AppImage` and `rpm` releases are now available for Linux.
-- 🎬 Added the upload methods: YouTube and Giphy.
+- 🐧 Linux  `AppImage` and `rpm` releases are now available.
+- 🎬 Added the YouTube and Giphy upload methods.
 
 ### 💪 Improvements
 
 - Portable releases are now distributed as `7z` instead of `zip`. (Smaller file size)
-- Improved settings order in "Application".
-- Improved texts of the "Status" page.
+- Improved settings order in `Application`.
+- Improved texts of the Status page.
 - Added algorithm status message during nudification.
 - Renamed `CPU Cores` option to `Video workers`
 

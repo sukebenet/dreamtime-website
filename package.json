@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "yarn run clean && docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "deploy build -p pinata -p dreamlink-cluster -d cloudflare -n www-dreamtime -s ."
+    "deploy": "deploy build -p pinata -d cloudflare -n www-dreamtime -s ."
   },
   "browserslist": {
     "production": [
