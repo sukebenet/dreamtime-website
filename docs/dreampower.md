@@ -11,6 +11,8 @@ DreamPower is an improved fork of the [DeepNude algorithm](https://github.com/st
 
 **DreamPower is free and open-source.**
 
+---
+
 ## Comparison
 
 |                           | DreamPower | DeepNude | DeepSukebe | xxxPaint |

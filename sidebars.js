@@ -52,8 +52,11 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Development',
-      items: ['development/getting-started'],
+      label: 'Advanced',
+      items: [
+        'advanced/development',
+        'advanced/downloads-api'
+      ],
     },
   ]
 };

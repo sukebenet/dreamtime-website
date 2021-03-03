@@ -42,32 +42,6 @@ module.exports = {
           label: 'GitHub',
           href: 'https://github.com/dreamnettech/dreamtime',
           position: 'right',
-        },
-        {
-          label: 'Community',
-          position: 'right',
-          items: [
-            {
-              label: 'DreamNet',
-              href: 'https://dreamnet.tech',
-            },
-            {
-              label: 'Discussions',
-              href: 'https://github.com/dreamnettech/dreamtime/discussions',
-            },
-            {
-              label: 'Chat',
-              href: 'https://chat.dreamnet.tech',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/DreamNetTechno',
-            },
-            {
-              label: 'Facebook',
-              href: 'https://web.facebook.com/DreamNetTechnology',
-            },
-          ]
         }
       ],
     },
@@ -78,7 +52,7 @@ module.exports = {
           items: [
             {
               label: 'DreamNet',
-              href: 'https://dreamnet.tech',
+              href: 'https://www.dreamnet.tech',
             },
             {
               label: 'Chat',
@@ -86,7 +60,7 @@ module.exports = {
             },
             {
               label: 'Discussions',
-              href: 'https://github.com/dreamnettech/dreamtime/discussions',
+              href: 'https://forum.dreamtime.tech',
             },
           ],
         },
@@ -115,19 +89,32 @@ module.exports = {
               href: 'https://www.patreon.com/dreamnet',
             },
             {
-              label: 'Buy Me A Coffe',
-              href: 'https://www.buymeacoffee.com/dreamnettech',
-            },
-            {
-              label: 'Liberapay',
-              href: 'https://liberapay.com/dreamnet',
-            },
-            {
               label: 'More...',
               href: 'https://dreamtime.tech/docs/support/support-us',
             }
           ],
         },
+        {
+          title: 'Mirrors',
+          items: [
+            {
+              label: 'IPFS',
+              href: 'https://www-dreamtime-tech.ipns.dweb.link/'
+            },
+            {
+              label: 'Tor',
+              href: 'http://cbndl6ks4nlxd34eknrjdfm45vm3huzr67ke6auar3n46ihij55zp5yd.onion'
+            },
+            {
+              label: 'dreamnet.crypto',
+              href: 'http://dreamnet.crypto/'
+            },
+            {
+              label: 'About mirrors',
+              href: 'https://www.patreon.com/posts/48156448'
+            }
+          ]
+        }
       ],
       copyright: `<br>Copyright © ${new Date().getFullYear()} DreamNet. Built with Docusaurus.`,
     },

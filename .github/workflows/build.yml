@@ -1,4 +1,4 @@
-name: Build
+name: Deploy
 
 on:
   push:
@@ -9,19 +9,26 @@ on:
       - "**.mdx?"
 
 jobs:
-  build:
+  deploy:
     name: Build & Deploy
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-
       - name: Install Node.js 14.x
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
 
-      - name: Setup
+      - uses: actions/checkout@v1
+
+      - uses: actions/cache@v2
+        env:
+          cache-name: dreamtime-docusaurus-modules-cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('yarn.lock') }}
+
+      - name: Install Dependencies
         run: yarn install
 
       - name: Build

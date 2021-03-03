@@ -8,27 +8,18 @@ If you are here is because maybe you are interested in contributing to the commu
 
 ## 🌟 Subscriptions
 
-Places where you can subscribe on a monthly basis and get exclusive advantages like pre-releases!
+Services where you can subscribe on a monthly basis and get exclusive advantages like **early-access releases**!
 
 - [Patreon](https://www.patreon.com/dreamnet)
-- [Buy Me A Coffe](https://www.buymeacoffee.com/dreamnettech)
-
----
-
-## 💌 Donations
-
-Places where you can donate any amount. 🥰
-
-- [Buy Me A Coffe](https://www.buymeacoffee.com/dreamnettech)
-- [LiberaPay](https://liberapay.com/dreamnet)
 
 ---
 
 ## 👨‍💻 Crypto
 
-Places and addresses where you can make anonymous donations with crypto-currencies.
+Services and addresses where you can make anonymous donations with crypto-currencies.
 
-- [Coinbase](https://commerce.coinbase.com/checkout/24a8bcb6-22db-4166-9bea-fb24fe78f1cd)
+- [Donate with Coinbase](https://commerce.coinbase.com/checkout/24a8bcb6-22db-4166-9bea-fb24fe78f1cd)
+- [`dreamnet.crypto`](https://unstoppabledomains.com/apps)
 - [BTC](https://www.livecoinwatch.com/price/Bitcoin-BTC): `17DTVkfDBQeb5bByxHHJZ314T8MT6chkNb`
 - [ETH](https://www.livecoinwatch.com/price/Ethereum-ETH): `0x5D2dFb78c8e145d8FF4FB5743257a2aae63b6497`
 - [BAT](https://www.livecoinwatch.com/price/BasicAttentionToken-BAT): `0x377BA62C111b403b2306Bfb05bA835F0cf40B0be`

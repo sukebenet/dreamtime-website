@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Development
 ---
 
 ![](/img/screely-1590144437132.png)
@@ -16,9 +16,8 @@ DreamTime source code is hosted in these places:
 
 - [GitHub](https://github.com/dreamnettech/dreamtime)
 - [Codeberg](https://codeberg.org/dreamnet/dreamtime)
-- [GitGud](https://gitgud.io/dreamnet/dreamtime)
-- [Antopie](https://code.antopie.org/dreamnet/dreamtime)
 - [Teknik](https://git.teknik.io/dreamnet/dreamtime)
+- [Gitee](https://gitee.com/kolessios/dreamtime)
 
 :::info
 If you are planning to contribute with a Pull Request please do it on GitHub by forking the [canary branch](https://github.com/dreamnettech/dreamtime/tree/canary).
@@ -26,7 +25,7 @@ If you are planning to contribute with a Pull Request please do it on GitHub by 
 
 ## Requirements
 
-- [NodeJS 10+](https://nodejs.org/en/)
+- [NodeJS 12+](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/en/docs/install)
 
 ### Experience
@@ -65,11 +64,11 @@ Install the project dependencies running this command:
 
 Run the following commands to start the dev environment, once prepared you will have the DreamTime window, the DevTools and hot-reload ready.
 
-`yarn run start:nuxt`
+`yarn run dev:nuxt`
 
-`yarn run start:babel`
+`yarn run dev:babel`
 
-`yarn run start:electron`
+`yarn run dev:electron`
 
 
 :::info
@@ -82,18 +81,23 @@ These are the commands that you can run with `yarn run <command>`:
 
 | Command            | Description |
 |--------------------|------------|
+| `postinstall` | Executed automatically when running `yarn install`. Responsible for running [patch-package](https://www.npmjs.com/package/patch-package) to apply monkey-patches to some libraries. |
 | `lint` |Run [eslint](https://eslint.org/) to validate that the code complies with our syntax.|
-| `start:nuxt` |Run the [NuxtJS development server](https://nuxtjs.org/guide/commands) with hot-reload.|
-| `start:babel` |Compile the `electron` folder with hot-reload.|
-| `start:electron` | Open Electron using the compiled code from the previous command. |
-| `build` | Compile the NuxtJS code, the `electron` folder, and create a ready-to-distribute executable. |
+| `test` | Should run a series of tests to verify that the project works as it should, but these tests have not been created. 🤡 |
 | `clean` | Delete folders with compiled code. |
+| `deploy` | Run [@dreamnet/deploy](https://www.npmjs.com/package/@dreamnet/deploy) to upload the release executable to multiple file providers. |
 | `optimize` | Run [modclean](https://npmjs.com/package/modclean) to clean the `node_modules` folder and decrease the size of the executable. |
+| `dev:env` ||
+| `dev:nuxt` |Run the [NuxtJS development server](https://nuxtjs.org/guide/commands) with hot-reload.|
+| `dev:babel` |Compile the `electron` folder with hot-reload.|
+| `dev:electron` | Open Electron using the compiled code from the previous command. |
+| `dev:build` |  |
+| `build:env` |  |
 | `build:nuxt` | Compile the NuxtJS code. |
 | `build:babel` | Compile the `electron` folder. |
 | `build:electron` | Create a ready-to-distribute executable. |
-| `build:dev` | Same as `build` but without running `optimize`. |
-| `preview:production` | Compile the NuxtJS code, the `electron` folder and open Electron as if it were the production executable. |
-| `postinstall` | It is executed automatically when running `yarn install`, for now it is responsible for running [patch-package](https://www.npmjs.com/package/patch-package) to apply monkey-patches to some libraries. |
-| `test` | Should run a series of tests to verify that the project works as it should, but these tests have not been created. 🤡 |
-| `deploy` | Run [@dreamnet/deploy](https://npm.dreamnet.tech/-/web/detail/@dreamnet/deploy) to upload the ready-to-distribute executable to multiple file providers. |
+| `build` | Compile the NuxtJS code, the `electron` folder, and create a ready-to-distribute executable. |
+| `preview:electron` |  |
+| `preview:production` |  |
+
+
