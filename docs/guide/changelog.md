@@ -86,10 +86,6 @@ title: Changelog
 - Improved the detection time for external file changes.
 - Application scrolling is now smoother.
 
-🌟 This release is available exclusively to Patrons for 15 days!
-
-[![](/img/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
-
 ---
 
 ## v1.5.12
