@@ -4,6 +4,23 @@ title: Changelog
 
 > ⭐ You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
 
+## v1.6.2
+
+### 🔨 Fixes
+
+- Fixed: Using Giphy more than once caused queue gifs to be overwritten.
+- Fixed: Queue not updating correctly when deleting photos.
+
+### 🍭 Others
+
+- Fixed: The list of supporters was not displayed correctly.
+
+🌟 This release is available exclusively to Patrons for 15 days!
+
+[![](/img/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
+
+---
+
 ## v1.6.1
 
 ### 🔨 Fixes
@@ -37,7 +54,7 @@ title: Changelog
 
 🌟 This release is available exclusively to Patrons for 15 days!
 
-[![](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
+[![](/img/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
 
 ---
 
@@ -71,7 +88,7 @@ title: Changelog
 
 🌟 This release is available exclusively to Patrons for 15 days!
 
-[![](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
+[![](/img/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
 
 ---
 
