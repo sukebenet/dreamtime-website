@@ -17,7 +17,7 @@ title: Changelog
 
 🌟 This release is available exclusively to Patrons for 15 days!
 
-[![](/img/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
+[![](/img/become_a_patron_button.png)](https://www.patreon.com/posts/48347918)
 
 ---
 
@@ -54,7 +54,7 @@ title: Changelog
 
 🌟 This release is available exclusively to Patrons for 15 days!
 
-[![](/img/become_a_patron_button.png)](https://www.patreon.com/dreamnet)
+[![](/img/become_a_patron_button.png)](https://www.patreon.com/posts/48222381)
 
 ---
 
@@ -85,6 +85,18 @@ title: Changelog
 - The preview of the photo panel now shows changes in real time of what will be sent to the algorithm and it is possible to open it by clicking.
 - Improved the detection time for external file changes.
 - Application scrolling is now smoother.
+
+### 🕷️ Known issues
+
+- Status page incorrectly reports the VRAM status.
+- Some system stats are shown as `NaN`.
+- Queue does not update correctly when processing or deleting photos.
+- "Crazy" video frame counter value when `CPU Cores` > 1
+- High RAM usage during video nudification.
+- Video preview not working correctly due to quick changes.
+- Video preview not working on GIFs.
+
+These issues have been fixed in [v1.6.1](https://www.patreon.com/posts/48222381) which is available to Patrons.
 
 ---
 

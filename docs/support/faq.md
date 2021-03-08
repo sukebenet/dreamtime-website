@@ -20,17 +20,17 @@ However for **DreamTime v2** we plan to offer the ability to use the power of yo
 
 ---
 
-### Mac M1 support?
+### Apple Silicon support?
 
-Short answer: It does not depend on us, but it may arrive in the next months.
+Short answer: It does not depend on us, but it will be implemented as soon as possible.
 
-DreamTime depends on Github Actions to prepare and compile the code for different platforms, support for Mac M1 and others depends on them and is currently in the planning phase for implementation.
+DreamTime depends on Github Actions to compile the code to different platforms, support for Apple Silicon and others depends on them and is currently in the [planning phase](https://github.com/actions/virtual-environments/issues/2486#issuecomment-782034281) for implementation.
 
 ---
 
 ### 32-bit support?
 
-The previous answer applies here. However, 32-bit operating systems are becoming obsolete so support for it is highly unlikely.
+32-bit operating systems are becoming obsolete and support for it is highly unlikely.
 
 ---
 
@@ -38,7 +38,7 @@ The previous answer applies here. However, 32-bit operating systems are becoming
 
 Short answer: It does not depend on us.
 
-The algorithm uses PyTorch as framework for the artificial intelligence, the support for AMD GPU's depends on them and for now it is in very experimental phase and only available for Linux.
+The algorithm uses PyTorch as the framework for the A.I., the support for AMD GPU's depends on them and for now it is in very experimental phase and only available for Linux. [See: Building PyTorch for ROCm](https://rocmdocs.amd.com/en/latest/Deep_learning/Deep-learning.html#pytorch)
 
 ---
 
@@ -164,3 +164,11 @@ Please visit [our chat](https://chat.dreamnet.tech) and post all the error messa
 :::info
 If you are using **Windows** please make sure you don't have the following file: `C:\Windows\System32\libiomp5md.dll` if so, delete or rename it and restart DreamTime.
 :::
+
+---
+
+### Dedicated VRAM
+
+If you are using GPU as a processing device, please note that the nudification algorithm can only use the dedicated VRAM of your GPU. Shared VRAM is too slow and therefore does not count in the total memory, this behavior cannot be changed.
+
+![](/img/previews/task-manager.png)
