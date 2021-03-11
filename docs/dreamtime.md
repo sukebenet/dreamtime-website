@@ -2,7 +2,7 @@
 title: DreamTime
 ---
 
-![](/img/previews/screely-1595709108433.png)
+![](/img/screenshots/screely-1615444647332.png)
 
 [![](https://img.shields.io/github/stars/dreamnettech/dreamtime?logo=github)](https://github.com/dreamnettech/dreamtime)
 [![](https://img.shields.io/github/downloads/dreamnettech/dreamtime/total?logo=github&logoColor=white)](/docs/installation)

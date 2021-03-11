@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "clean": "shx rm -rf build/",
+    "clean": "shx rm -rf build",
     "start": "docusaurus start",
     "build": "yarn run clean && docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "deploy build -p pinata -d cloudflare -n www-dreamtime -s ."
+    "deploy": "deploy build -c -p pinata -p dreamlink-cluster -d cloudflare -n www-dreamtime -s ."
   },
   "browserslist": {
     "production": [
@@ -33,7 +33,7 @@
     "youch": "^2.1.1"
   },
   "devDependencies": {
-    "@dreamnet/deploy-cli": "^1.0.2",
+    "@dreamnet/deploy-cli": "^1.2.0",
     "@mdx-js/react": "^1.6.16",
     "clsx": "^1.1.1",
     "shx": "^0.3.2"
