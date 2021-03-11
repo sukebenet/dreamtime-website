@@ -1937,11 +1937,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dreamnet/deploy-cli@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@dreamnet/deploy-cli@npm:1.0.2"
+"@dreamnet/deploy-cli@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@dreamnet/deploy-cli@npm:1.2.0"
   dependencies:
-    "@dreamnet/deploy": ^1
+    "@dreamnet/deploy": ^1.2.0
     "@oclif/command": ^1
     "@oclif/config": ^1
     "@oclif/plugin-help": ^3
@@ -1950,13 +1950,13 @@ __metadata:
     tslib: ^1
   bin:
     deploy: ./bin/run
-  checksum: aa793eb05de1dc3e35a1f1a50ed216492b9a6fbaa435137c76f3155ef5bed9ebd32b7de889fa94e94838818936ebf9aaf76197ada8ebedf4e2d39068a88740b1
+  checksum: b8ab906a4ae379474f28e80c0fbe45ea392d03b18ddf11c65aaef8aabf8b0086c9d67d27aead2f30bffb1c0edd390a9dcc3f43fa1a467f7ac3f9ec8084357d3e
   languageName: node
   linkType: hard
 
-"@dreamnet/deploy@npm:^1":
-  version: 1.0.4
-  resolution: "@dreamnet/deploy@npm:1.0.4"
+"@dreamnet/deploy@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@dreamnet/deploy@npm:1.2.0"
   dependencies:
     "@dreamnet/app": ^1.1.1
     "@octokit/rest": ^18.1.0
@@ -1979,7 +1979,7 @@ __metadata:
     ora: ^5.3.0
     recursive-fs: ^2.1.0
     slash: ^3.0.0
-  checksum: 0b888f6f06144e251f5c117959a6404c5c3fdd86869c87e7eb5fc7c70177b6b09e32715fb84f2d8cfcfa7b992f10f83630f38e44fc15e3e9472bd16379c67a2e
+  checksum: d7517f81b7e28a66751b9f56de79b987ab1d2251323386a27eb22ce5dde76d3b8651400f23ecf1d376691f020e1ee80bca2533b8207fa9198505597454b773b3
   languageName: node
   linkType: hard
 
@@ -1999,7 +1999,7 @@ __metadata:
     "@docusaurus/plugin-ideal-image": ^2.0.0-alpha.50
     "@docusaurus/preset-classic": ^2.0.0-alpha.50
     "@docusaurus/theme-classic": ^2.0.0-alpha.37
-    "@dreamnet/deploy-cli": ^1.0.2
+    "@dreamnet/deploy-cli": ^1.2.0
     "@dreamnet/docusaurus-plugin-dreamtime": ^0.1.0
     "@mdx-js/react": ^1.6.16
     classnames: ^2.2.6
