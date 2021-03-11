@@ -18,6 +18,9 @@
   --ifm-color-info: #5E81AC;
   --ifm-color-warning: #EBCB8B;
   --ifm-color-danger: #BF616A;
+
+  --ifm-navbar-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --ifm-toc-border-color: #343b49;
 }
 
 html[data-theme='dark'] {
@@ -58,6 +61,7 @@ table {
 
 .sidebar_src-theme-DocSidebar-,
 .sidebar_25T_ {
+  background-color: var(--ifm-navbar-background-color);
   display: flex;
   flex-direction: column;
 }
@@ -85,8 +89,4 @@ video {
 
 .admonition h5 {
   color: black;
-}
-
-.sidebar_src-theme-DocSidebar- {
-  background-color: var(--ifm-navbar-background-color);
 }
