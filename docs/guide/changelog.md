@@ -52,10 +52,6 @@ title: Changelog
 - Added a link to the source code of the "Badtime" minigame.
 - Disabled snapshots creation when an error occurs.
 
-🌟 This release is available exclusively to Patrons for 15 days!
-
-[![](/img/become_a_patron_button.png)](https://www.patreon.com/posts/48222381)
-
 ---
 
 ## v1.6.0
