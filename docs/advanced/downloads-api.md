@@ -2,13 +2,13 @@
 title: Downloads API
 ---
 
-Our projects are often criticized because of their sensitive nature and the problems that a censorship-free network can bring. That's why we have created `downloads.dreamnet.tech`, a service made to always offer an available download mirror to our projects.
+In order to ensure that our projects can be easily downloaded publicly we have created a download server (`downloads.dreamnet.tech`) that offers the most reliable mirror to our projects.
 
-In this document we will explain its basic operation for anyone interested.
+In this document we will explain its basic operation.
 
 ## Base
 
-This is the base API URL. The Query and Params apply to all the endpoints.
+This is the base API URL. The `query` and `params` apply to all the endpoints.
 
 ```
 https://downloads.dreamnet.tech/v2/{project}/{version}
@@ -58,16 +58,16 @@ https://downloads.dreamnet.tech/v2/{project}/{version}/{filename?}?{params...}
 
 ### Examples
 
-DreamTime v1.5.12 - Installer - Windows:
+DreamTime v1.6.2 - Installer - Windows:
 
 ```
-https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12/?platform=windows
+https://downloads.dreamnet.tech/v2/dreamtime/v1.6.2/?platform=windows
 ```
 
-DreamTime v1.5.12 - Portable - Linux - URL Only:
+DreamTime v1.6.2 - Portable - Linux - URL Only:
 
 ```
-https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12/?platform=ubuntu&arch=portable&text=1
+https://downloads.dreamnet.tech/v2/dreamtime/v1.6.2/?platform=lionux&arch=portable&text=1
 ```
 
 ---
@@ -82,16 +82,16 @@ https://downloads.dreamnet.tech/v2/{project}/{version}/records.json?{params...}
 
 ### Examples
 
-DreamTime - Windows:
+DreamTime v1.6.2 - Installer - Windows:
 
 ```
-https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12/records.json?platform=windows
+https://downloads.dreamnet.tech/v2/dreamtime/v1.6.2/records.json?platform=windows
 ```
 
-DreamTime - Linux:
+DreamTime v1.6.2 - Portable - Linux:
 
 ```
-https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12/records.json?platform=ubuntu&arch=portable
+https://downloads.dreamnet.tech/v2/dreamtime/v1.6.2/records.json?platform=linux&arch=portable
 ```
 
 ---
@@ -101,19 +101,35 @@ https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12/records.json?platform=ubunt
 This endpoint returns a list of SHA256 checksum of the files.
 
 ```
-https://downloads.dreamnet.tech/v2/{project}/{version}/checksum.sha256?{params...}
+https://downloads.dreamnet.tech/v2/{project}/{version}/checksum.sha256
 ```
 
 ### Examples
 
-DreamTime - Windows:
+DreamTime v1.6.2:
 
 ```
-https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12/checksum.sha256?platform=windows
+https://downloads.dreamnet.tech/v2/dreamtime/v1.6.2/checksum.sha256
 ```
 
-DreamTime - Linux:
+---
+
+## Latest
+
+This endpoint returns the latest version available.
 
 ```
-https://downloads.dreamnet.tech/v2/dreamtime/v1.5.12/checksum.sha256?platform=ubuntu&arch=portable
+https://downloads.dreamnet.tech/v2/{project}/latest.txt
+```
+
+### Params
+
+- `public`: Optional. If included, the latest version available to the public will be returned.
+
+### Examples
+
+DreamTime:
+
+```
+https://downloads.dreamnet.tech/v2/dreamtime/latest.txt?public=1
 ```

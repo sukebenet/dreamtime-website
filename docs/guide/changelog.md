@@ -15,10 +15,6 @@ title: Changelog
 
 - Fixed: The list of supporters was not displayed correctly.
 
-🌟 This release is available exclusively to Patrons for 15 days!
-
-[![](/img/become_a_patron_button.png)](https://www.patreon.com/posts/48347918)
-
 ---
 
 ## v1.6.1
