@@ -4,6 +4,25 @@ title: Changelog
 
 > ⭐ You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
 
+## v1.6.3
+
+### 🔨 Fixes
+
+- Fixed: Crash at startup on macOS.
+- Fixed: DreamPower installation always failed on macOS.
+- Fixed: Download progress in the updater was not displayed.
+- Fixed: IPFS downloads were not working properly.
+
+### 💪 Improvements
+
+- New color palette for the design and improvements in buttons and inputs.
+
+### 🍭 Others
+
+- Hotfix: Due to changes with the way releases are made, "New DreamTime version" notifications will open the download page instead of using the built-in updater.
+
+---
+
 ## v1.6.2
 
 ### 🔨 Fixes
