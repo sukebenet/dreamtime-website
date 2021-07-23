@@ -24,6 +24,7 @@ module.exports = {
         'installation',
         'guide/changelog',
         'guide/components',
+        'support/faq',
       ]
     },
     {
@@ -38,18 +39,6 @@ module.exports = {
         'guide/google-colab'
       ],
     },
-
-    {
-      type: 'category',
-      label: 'Support',
-      items: [
-        'support/feedback',
-        'support/faq',
-        'support/support-us',
-        'support/team'
-      ],
-    },
-
     {
       type: 'category',
       label: 'Advanced',

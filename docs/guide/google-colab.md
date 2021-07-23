@@ -4,9 +4,9 @@ title: Google Colab
 
 ![](/img/previews/screely-1600043664250.png)
 
-Google Colab is a service that allows you to execute Python code in the form of documents, in this case it will allow you to run [the nudification algorithm](/docs/dreampower) from any device that has a web browser, **all the heavy work will be done on Google's servers**.
+Google Colab allows you to run Pyton applications from the web using Google's servers.
 
-This page offers a basic tutorial for using DreamPower in Google Colab.
+This guide will show you how to use DreamPower in Google Colab to nude photos from its interface.
 
 ## Getting started
 
@@ -20,7 +20,7 @@ Below are different versions of DreamPower in Google Colab:
 Google Colab may not work correctly if you use a web browser or extension that blocks third-party cookies or trackers.
 :::
 
-Next you will see a document a little bit weird but easy to understand:
+Next you will see a document:
 
 ![](/img/previews/screely-1600056608365.png)
 

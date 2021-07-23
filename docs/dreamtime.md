@@ -7,9 +7,9 @@ title: DreamTime
 [![](https://img.shields.io/github/stars/dreamnettech/dreamtime?logo=github)](https://github.com/dreamnettech/dreamtime)
 [![](https://img.shields.io/github/downloads/dreamnettech/dreamtime/total?logo=github&logoColor=white)](/docs/installation)
 
-DreamTime is an application that allows you to easily create fake nudes from photos or videos using artificial intelligence.
+DreamTime is a free and easy-to-use user interface to take advantage of the full power of [DreamPower](/docs/dreampower), an improved fork of the DeepNude algorithm.
 
-Its modern user interface is very easy to use and it has many new options to experiment and get the best result, also incorporates a an improved version of the [DeepNude algorithm](/docs/dreampower) that generates better fake nudes.
+With DreamTime you can create fake nudes from photos and videos of women, customize the body, make automatic enhancements and experiment with more advanced options.
 
 **DreamTime is free and open-source.**
 

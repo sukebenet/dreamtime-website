@@ -9,33 +9,43 @@ on:
       - "**.mdx?"
   workflow_dispatch:
 
+env:
+  NODE_ENV: production 
+
 jobs:
   deploy:
-    name: Build & Deploy
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install Node.js 14.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
+      - name: 📁 Checkout
+        uses: actions/checkout@v2
 
-      - uses: actions/checkout@v1
-
-      - uses: actions/cache@v2
+      - name: 📦 Cache node_modules
+        uses: actions/cache@v2
         env:
-          cache-name: dreamtime-docusaurus-modules-cache
+          cache-name: dreamtime-www
         with:
-          path: node_modules
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('yarn.lock') }}
+          path: |
+            node_modules
+            !node_modules/.cache
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
 
-      - name: Install Dependencies
+      - name: 🧰 Setup NodeJS
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          check-latest: true
+
+      - name: 👨🏻‍💻 Install dependencies
         run: yarn install
 
-      - name: Build
+      - name: 🏗️ Build
         run: yarn run build
 
-      - name: Deploy
+      - name: 🚀 Deploy
         run: yarn run deploy
         timeout-minutes: 20
         env:

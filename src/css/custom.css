@@ -4,20 +4,38 @@
  * work well for content-centric websites.
  */
 
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("https://odn.pw/ipfs/QmZwnqdy1nZdjY5Gp7b9iYgMwnS3Vnh9TrkvCoPWJQaZgv?filename=Inter-roman.var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url("https://odn.pw/ipfs/Qmcg9bXJGEgqPnQGA6sTp1zJMB6sLuxrPWRR1qP8pjUou4?filename=Inter-italic.var.woff2") format("woff2");
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #de9041;
-  --ifm-color-primary-dark: #da832b;
-  --ifm-color-primary-light: #e29d57;
+  --ifm-color-primary: #7db8e8;
+  --ifm-color-primary-dark: #52a0e0;
+  --ifm-color-primary-light: #a8d0f0;
 
   --ifm-code-font-size: 95%;
   --ifm-font-size-base: 16px;
   --ifm-hero-background-color: var(--ifm-footer-background-color);
-  --ifm-font-family-base: Rubik, -apple-system, BlinkMacSystemFont, system-ui, Arial, sans-serif;
+  --ifm-font-family-base: Inter, -apple-system, BlinkMacSystemFont, system-ui, Arial, sans-serif;
 
-  --ifm-color-info: #5E81AC;
-  --ifm-color-warning: #EBCB8B;
-  --ifm-color-danger: #BF616A;
+  --ifm-color-info: #94afd1;
+  --ifm-color-warning: #f0d8a8;
+  --ifm-color-danger: #f0a8af;
 
   --ifm-navbar-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --ifm-toc-border-color: #343b49;
@@ -26,11 +44,15 @@
 html[data-theme='dark'] {
   --ifm-navbar-background-color: #2E3440;
   --ifm-footer-background-color: #2E3440;
-  --ifm-hero-background-color: #14171d;
-  --ifm-background-color: #232831;
-  --ifm-heading-color: white;
+  --ifm-hero-background-color: #000;
+  --ifm-background-color: #242933;
+  --ifm-heading-color: #ECEFF4;
   --ifm-font-color-base: #D8DEE9;
   --ifm-hero-text-color: #ECEFF4;
+}
+
+body {
+  font-feature-settings: "liga", "ss01", "zero", "cv11", "frac", "calt", "tnum";
 }
 
 .docusaurus-highlight-code-line {

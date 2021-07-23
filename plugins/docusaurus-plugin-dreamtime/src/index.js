@@ -10,14 +10,14 @@ module.exports = function(context) {
             tagName: 'meta',
             attributes: {
               name: 'theme-color',
-              content: '#d67411',
+              content: '#7db8e8',
             }
           },
           {
             tagName: 'meta',
             attributes: {
               name: 'description',
-              content: 'DreamTime is an application that allows you to easily create fake nudes from a photo using artificial intelligence. Available for free for Windows, Mac and Linux.'
+              content: 'The easiest to use application to create fake nudes from photos and videos. Available for free for Windows, Mac and Linux.'
             }
           },
           {
@@ -59,7 +59,7 @@ module.exports = function(context) {
             tagName: 'meta',
             attributes: {
               property: 'og:description',
-              content: 'DreamTime is an application that allows you to easily create fake nudes from a photo using artificial intelligence. Available for free for Windows, Mac and Linux.'
+              content: 'The easiest to use application to create fake nudes from photos and videos. Available for free for Windows, Mac and Linux.'
             }
           },
           {
@@ -73,7 +73,7 @@ module.exports = function(context) {
             tagName: 'meta',
             attributes: {
               name: 'twitter:site',
-              content: '@DreamNetTechno'
+              content: '@opendreamnetdev'
             }
           },
           {
@@ -93,8 +93,8 @@ module.exports = function(context) {
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
               "name": "DreamTime",
-              "downloadUrl": "https://time.dreamnet.tech/docs/installation",
-              "screenshot": "https://time.dreamnet.tech/img/screely-1587258791179.png",
+              "downloadUrl": "https://www.dreamtime.tech/docs/installation",
+              "screenshot": "https://www.dreamtime.tech/assets/images/screely-1615444647332-b96e9ea3dfabf6b116dc715af689464f.png",
               "operatingSystem": "Windows 7, macOS 10.15, Linux",
               "applicationCategory": "https://schema.org/EntertainmentApplication",
               "aggregateRating": {
@@ -171,21 +171,14 @@ module.exports = function(context) {
             })
             `
           },
-          /* Verifications */
+          /* Monetization */
           {
             tagName: 'meta',
             attributes: {
-              name: 'trafficjunky-site-verification',
-              content: 'w4ts34pvt'
+              name: 'monetization',
+              content: process.env.META_MONETIZATION || '$ilp.uphold.com/ZjjF93fX8YKy'
             }
-          },
-          {
-            tagName: 'meta',
-            attributes: {
-              name: 'juicyads-site-verification',
-              content: '09f2b5ac5e71d26d2980ce9f8f05f643'
-            }
-          },
+          }
         ],
 
         postBodyTags: [

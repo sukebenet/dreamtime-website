@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'DreamTime - Fake Nudes Application',
+  title: 'DreamTime',
   tagline: 'Use artificial intelligence to create fake nudes.',
-  url: 'https://time.dreamnet.tech',
+  url: 'https://www.dreamtime.tech',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'dreamnettech', // Usually your GitHub org/user name.
@@ -13,7 +13,7 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark'
     },
-    image: 'img/screely-1587258791179.png',
+    image: 'assets/images/screely-1615444647332-b96e9ea3dfabf6b116dc715af689464f.png',
     announcementBar: {},
     navbar: {
       title: 'DreamTime',
@@ -29,14 +29,14 @@ module.exports = {
           position: 'left'
         },
         {
-          to: 'docs/support/support-us',
-          label: 'Support us',
+          to: 'https://www.opendreamnet.com/contact',
+          label: 'Contact',
           position: 'left'
         },
         {
-          to: 'docs/support/feedback',
-          label: 'Contact',
-          position: 'left'
+          to: 'https://github.com/dreamnettech/dreamtime/discussions',
+          label: 'Forum',
+          position: 'right'
         },
         {
           label: 'GitHub',
@@ -51,16 +51,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'DreamNet',
-              href: 'https://www.dreamnet.tech',
+              label: 'OpenDreamNet',
+              href: 'https://www.opendreamnet.com',
             },
             {
-              label: 'Chat',
-              href: 'https://chat.dreamnet.tech',
-            },
-            {
-              label: 'Discussions',
-              href: 'https://forum.dreamtime.tech',
+              label: 'Forum',
+              href: 'https://github.com/dreamnettech/dreamtime/discussions',
             },
           ],
         },
@@ -73,24 +69,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/DreamNetTechno',
-            },
-            {
-              label: 'Facebook',
-              href: 'https://web.facebook.com/DreamNetTechnology',
-            },
-          ],
-        },
-        {
-          title: 'Support us',
-          items: [
-            {
-              label: 'Patreon',
-              href: 'https://www.patreon.com/dreamnet',
-            },
-            {
-              label: 'More...',
-              href: 'https://dreamtime.tech/docs/support/support-us',
+              href: 'https://twitter.com/opendreamnetdev',
             }
           ],
         },
@@ -99,7 +78,7 @@ module.exports = {
           items: [
             {
               label: 'IPFS',
-              href: 'https://www-dreamtime-tech.ipns.dweb.link/'
+              href: 'https://dweb.link/ipns/www.dreamtime.tech'
             },
             {
               label: 'Tor',
@@ -108,15 +87,11 @@ module.exports = {
             {
               label: 'dreamnet.crypto',
               href: 'http://dreamnet.crypto/'
-            },
-            {
-              label: 'About mirrors',
-              href: 'https://www.patreon.com/posts/48156448'
             }
           ]
         }
       ],
-      copyright: `<br>Copyright © ${new Date().getFullYear()} DreamNet. Built with Docusaurus.`,
+      copyright: `<br>Copyright © ${new Date().getFullYear()} OpenDreamNet. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -137,9 +112,7 @@ module.exports = {
       },
     ],
   ],
-  stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap'
-  ],
+  stylesheets: [],
   plugins: [
     '@dreamnet/docusaurus-plugin-dreamtime'
   ]
