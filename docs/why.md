@@ -21,10 +21,4 @@ These are some examples of people/projects that have used DreamTime creatively a
 
 With the [abandonment of DeepNude](https://twitter.com/deepnudeapp/status/1144307316231200768), the project was left without a central team dedicated to improving it or servers to distribute it, this caused thousands of websites to begin distributing "cracked" copies of the program, which on several occasions could be full of malware and even when downloading the real application one would quickly realize its limitations and problems due to the poor development of its interface.
 
-**For these reasons, DreamNet, DreamTime and DreamPower were born.**
-
-## DreamNet
-
-DreamNet is a community with the goal of being the focal point of the development of DreamTime and other applications. We offer services where people can meet to discuss the development of projects and servers where they can download them safely.
-
-[Visit our page for more information.](https://web.dreamnet.tech)
+**For these reasons, DreamTime and DreamPower were born.**

@@ -159,8 +159,6 @@ This problem means that the updater could not extract the content of the update 
 
 This problem means that DreamTime has not been able to validate that the component is working correctly and it is very possible that you need help to diagnose and fix the error.
 
-Please visit [our chat](https://chat.dreamnet.tech) and post all the error message that appears in the black box.
-
 :::info
 If you are using **Windows** please make sure you don't have the following file: `C:\Windows\System32\libiomp5md.dll` if so, delete or rename it and restart DreamTime.
 :::

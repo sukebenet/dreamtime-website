@@ -123,7 +123,7 @@ module.exports = function(context) {
             tagName: 'link',
             attributes: {
               rel: 'preconnect',
-              href: 'https://ads.dreamnet.tech',
+              href: 'https://ads.opendreamnet.com',
             },
           },
           /* Google Tag Manager */
@@ -141,7 +141,7 @@ module.exports = function(context) {
             tagName: 'script',
             attributes: {
               async: true,
-              src: '//ads.dreamnet.tech/delivery/asyncjs.php',
+              src: '//ads.opendreamnet.com/delivery/asyncjs.php',
             },
           },
           {
