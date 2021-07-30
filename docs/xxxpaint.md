@@ -7,7 +7,7 @@ title: xxxPaint
 Due to moral conflicts, the development of xxxPaint is on hold indefinitely.
 :::
 
-xxxPaint is a new nudification algorithm made from scratch by [deeppppp](/docs/support/team/#deeppppp), unlike [DreamPower](/docs/dreampower), this algorithm does not use the DeepNude dataset or code, it creates higher quality fake nudes for both front and 🍑.
+xxxPaint is a new nudification algorithm made from scratch by deeppppp, unlike [DreamPower](/docs/dreampower), this algorithm does not use the DeepNude dataset or code, it creates higher quality fake nudes for both front and 🍑.
 
 ![](/img/screely-1589684389844.png)
 
