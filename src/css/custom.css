@@ -36,12 +36,11 @@
   --ifm-color-info: #94afd1;
   --ifm-color-warning: #f0d8a8;
   --ifm-color-danger: #f0a8af;
-
-  --ifm-navbar-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --ifm-toc-border-color: #343b49;
 }
 
 html[data-theme='dark'] {
+  --ifm-navbar-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --ifm-toc-border-color: #343b49;
   --ifm-navbar-background-color: #2E3440;
   --ifm-footer-background-color: #2E3440;
   --ifm-hero-background-color: #000;

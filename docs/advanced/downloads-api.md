@@ -67,7 +67,7 @@ https://d.opendreamnet.com/v2/dreamtime/v1.6.2/?platform=windows
 DreamTime v1.6.2 - Portable - Linux - URL Only:
 
 ```
-https://d.opendreamnet.com/v2/dreamtime/v1.6.2/?platform=lionux&arch=portable&text=1
+https://d.opendreamnet.com/v2/dreamtime/v1.6.2/?platform=linux&arch=portable&text=1
 ```
 
 ---

@@ -12,9 +12,7 @@ module.exports = {
       label: 'About',
       items: [
         'dreamtime',
-        'dreampower',
-        'why',
-        'xxxpaint'
+        'dreampower'
       ],
     },
     {

@@ -15,12 +15,9 @@ This document contains the instructions to prepare the user interface code (Drea
 DreamTime source code is hosted in these places:
 
 - [GitHub](https://github.com/dreamnettech/dreamtime)
-- [Codeberg](https://codeberg.org/dreamnet/dreamtime)
-- [Teknik](https://git.teknik.io/dreamnet/dreamtime)
-- [Gitee](https://gitee.com/kolessios/dreamtime)
 
 :::info
-If you are planning to contribute with a Pull Request please do it on GitHub by forking the [canary branch](https://github.com/dreamnettech/dreamtime/tree/canary).
+If you are planning to contribute with a Pull Request please do it on the [canary branch](https://github.com/dreamnettech/dreamtime/tree/canary).
 :::
 
 ## Requirements
