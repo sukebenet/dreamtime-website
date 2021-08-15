@@ -4,6 +4,26 @@ title: Changelog
 
 > ⭐ You can find all the releases on [Github](https://github.com/dreamnettech/dreamtime/releases).
 
+## v1.6.4
+
+### 🔨 Bug Fixes
+
+- Fixed: Added custom message indicating when an Instagram photo is private or restricted.
+- Fixed: Ads section not showing.
+- Fixed: Parts of the application were not working because it was trying to connect to servers from an expired domain.
+- Fixed: Fatal error when the application does not correctly detect components version.
+
+### 🎨 Design
+
+- Improved button styling.
+- Minor changes in base colors.
+
+### 💪 Improvements
+
+- Added "status" page after "welcome" page on wizard to verify that the device can run DreamTime before downloading the components.
+
+---
+
 ## v1.6.3
 
 ### 🔨 Fixes
